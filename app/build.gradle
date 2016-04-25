@@ -1,5 +1,12 @@
 apply plugin: 'com.android.application'
 
+def enableSeparateBuildPerCPUArchitecture = false
+
+/**
+ * Run Proguard to shrink the Java bytecode in release builds.
+ */
+def enableProguardInReleaseBuilds = false
+
 android {
     compileSdkVersion 19
     buildToolsVersion "23.0.2"
@@ -10,9 +17,22 @@ android {
         targetSdkVersion 19
     }
 
+    signingConfigs {
+        release {
+            storeFile file(MYAPP_RELEASE_STORE_FILE)
+            storePassword MYAPP_RELEASE_STORE_PASSWORD
+            keyAlias MYAPP_RELEASE_KEY_ALIAS
+            keyPassword MYAPP_RELEASE_KEY_PASSWORD
+        }
+        debug {
+            storeFile file("debug.keystore")
+        }
+    }
+
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled enableProguardInReleaseBuilds
+            signingConfig signingConfigs.release
             proguardFiles 'proguard.cfg'
         }
     }
