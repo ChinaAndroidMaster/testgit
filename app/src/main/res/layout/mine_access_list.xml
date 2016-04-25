@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/color_mine_interval"
+    >
+    <include android:id="@+id/headerLayout" layout="@layout/include_header"/>
+	 <com.creditease.checkcars.ui.widget.XListView
+        android:id="@+id/mine_access_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/headerLayout"
+        android:background="@color/white"
+        android:divider="@drawable/list_divider"
+        android:dividerHeight="1px"
+        android:fadingEdge="none"
+        android:headerDividersEnabled="false"
+        />
+	 
+
+    <TextView
+        android:id="@+id/mine_access_ordersinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="@string/str_carorders_info_no_orders"
+        android:textColor="@color/color_text_gray"
+        android:textSize="20sp"
+        android:visibility="gone" />
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/include_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EDEDEB"
+        android:orientation="vertical"
+        android:padding="15.5dp" >
+
+        <RelativeLayout
+            android:id="@+id/act_resetpwd_layout_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center_horizontal" >
+
+            <ImageView
+                android:id="@+id/act_resetpwd_imgv_step1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_step_one_passed" />
+
+            <ImageView
+                android:id="@+id/act_resetpwd_imgv_step_line1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/act_resetpwd_imgv_step1"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_step_line_undo" />
+
+            <ImageView
+                android:id="@+id/act_resetpwd_imgv_step2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/act_resetpwd_imgv_step_line1"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_step_two" />
+
+            <ImageView
+                android:id="@+id/act_resetpwd_imgv_step_line2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/act_resetpwd_imgv_step2"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_step_line_undo" />
+
+            <ImageView
+                android:id="@+id/act_resetpwd_imgv_step3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/act_resetpwd_imgv_step_line2"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_step_three" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:orientation="vertical" >
+
+            <com.creditease.checkcars.ui.widget.FixedViewFlipper
+                android:id="@+id/act_resetpwd_viewflipper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:flipInterval="1000"
+                android:persistentDrawingCache="animation" >
+
+                <include
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/include_step_phone" />
+
+                <include
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/include_step_setpwd" />
+            </com.creditease.checkcars.ui.widget.FixedViewFlipper>
+
+            <Button
+                android:id="@+id/act_resetpwd_btn_next"
+                android:layout_width="match_parent"
+                android:layout_height="49.0dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="16.0dp"
+                android:background="@drawable/bg_btn_commit_selector"
+                android:text="@string/step_next"
+                android:textColor="@color/white"
+                android:textSize="18.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

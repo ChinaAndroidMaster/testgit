@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/car_record_scrollv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="7dp"
+            android:text="@string/str_carrecord_please_input"
+            android:textColor="@color/color_text_gray"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <com.creditease.checkcars.ui.widget.CleanableEditText
+                android:id="@+id/car_record_vin_et"
+                android:layout_width="match_parent"
+                android:layout_height="48.0dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_input_top"
+                android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:drawableLeft="@drawable/icon_carcheck_vin"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/btn_clean_edittext"
+                android:hint="@string/str_carrecord_vin"
+                android:maxLength="17"
+                android:paddingLeft="10.5dp"
+                android:paddingRight="15.5dp"
+                android:textColor="@color/color_text_black_gray"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/car_record_vin_et_query"
+                android:layout_width="match_parent"
+                android:layout_height="48.0dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="3.5"
+                android:background="@drawable/btn_car_query_disable"
+                android:clickable="true"
+                android:text="@string/show_carinfo_btn"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <com.creditease.checkcars.ui.widget.CleanableEditText
+            android:id="@+id/car_record_car_et"
+            android:layout_width="match_parent"
+            android:layout_height="48.0dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bg_input_top"
+            android:drawableLeft="@drawable/ic_carcheck_car"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/btn_clean_edittext"
+            android:hint="@string/str_carrecord_car"
+            android:paddingLeft="10.5dp"
+            android:paddingRight="15.5dp"
+            android:singleLine="true"
+            android:textColor="@color/color_text_black_gray"
+            android:textSize="15sp" />
+
+        <com.creditease.checkcars.ui.widget.CleanableEditText
+            android:id="@+id/car_record_yearType_et"
+            android:layout_width="match_parent"
+            android:layout_height="48.0dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bg_input_top"
+            android:drawableLeft="@drawable/ic_carcheck_yeartype"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/btn_clean_edittext"
+            android:gravity="center_vertical"
+            android:hint="@string/carrecord_car_config"
+            android:paddingLeft="10.5dp"
+            android:paddingRight="15.5dp"
+            android:textColor="@color/color_text_black_gray"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/car_record_productdate_et"
+            android:layout_width="match_parent"
+            android:layout_height="48.0dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bg_input_top"
+            android:drawableLeft="@drawable/ic_carcheck_outdate"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical|left"
+            android:hint="@string/str_carrecord_productdate"
+            android:maxLength="13"
+            android:paddingLeft="10.5dp"
+            android:paddingRight="15.5dp"
+            android:textColor="@color/color_text_black_gray"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/car_record_year_et"
+            android:layout_width="match_parent"
+            android:layout_height="48.0dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bg_input_top"
+            android:drawableLeft="@drawable/ic_carcheck_date"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical|left"
+            android:hint="@string/str_carrecord_year"
+            android:paddingLeft="10.5dp"
+            android:paddingRight="15.5dp"
+            android:textColor="@color/color_text_black_gray"
+            android:textSize="15sp" />
+
+        <com.creditease.checkcars.ui.widget.CleanableEditText
+            android:id="@+id/car_record_mileage_et"
+            android:layout_width="match_parent"
+            android:layout_height="48.0dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bg_input_top"
+            android:drawableLeft="@drawable/ic_carcheck_mode"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/btn_clean_edittext"
+            android:gravity="center_vertical"
+            android:hint="@string/str_carrecord_mileage"
+            android:inputType="number"
+            android:maxLength="13"
+            android:paddingLeft="10.5dp"
+            android:paddingRight="15.5dp"
+            android:textColor="@color/color_text_black_gray"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/car_record_emissionStandards_tv"
+            android:layout_width="match_parent"
+            android:layout_height="48.0dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bg_input_top"
+            android:drawableLeft="@drawable/ic_carcheck_emissionstandards"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:hint="@string/str_carrecord_emissionStandards"
+            android:paddingLeft="10.5dp"
+            android:paddingRight="15.5dp"
+            android:textColor="@color/color_text_black_gray"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/car_record_userguide_tv"
+            android:layout_width="match_parent"
+            android:layout_height="48.0dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bg_input_top"
+            android:drawableLeft="@drawable/ic_carcheck_userguide"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:hint="@string/carrecord_car_userguide"
+            android:paddingLeft="10.5dp"
+            android:paddingRight="15.5dp"
+            android:textColor="@color/color_text_black_gray"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/car_record_factorycertificates_tv"
+            android:layout_width="match_parent"
+            android:layout_height="48.0dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bg_input_top"
+            android:drawableLeft="@drawable/ic_carcheck_factorycert"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:hint="@string/carrecord_car_factorycertificates"
+            android:paddingLeft="10.5dp"
+            android:paddingRight="15.5dp"
+            android:textColor="@color/color_text_black_gray"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/car_record_registdata_tv"
+            android:layout_width="match_parent"
+            android:layout_height="48.0dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bg_input_top"
+            android:drawableLeft="@drawable/ic_carcheck_registdata"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:hint="@string/carrecord_car_registerdata"
+            android:paddingLeft="10.5dp"
+            android:paddingRight="15.5dp"
+            android:textColor="@color/color_text_black_gray"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/car_record_fourTwoOne_tv"
+            android:layout_width="match_parent"
+            android:layout_height="48.0dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bg_input_top"
+            android:drawableLeft="@drawable/ic_carcheck_tickets"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:hint="@string/carrecord_fourTwoOne"
+            android:paddingLeft="10.5dp"
+            android:paddingRight="15.5dp"
+            android:textColor="@color/color_text_black_gray"
+            android:textSize="15sp" />
+
+        <RadioGroup
+            android:id="@+id/car_record_carType_rg"
+            android:layout_width="match_parent"
+            android:layout_height="48.0dp"
+            android:layout_marginBottom="80dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10.5dp"
+            android:paddingRight="15.5dp"
+            android:visibility="visible" >
+
+            <RadioButton
+                android:id="@+id/car_record_carType_rb_import"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_carrecord_carType_import"
+                android:textColor="@color/color_text_black_gray"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/car_record_carType_rb_domestic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/str_carrecord_carType_domestic"
+                android:textColor="@color/color_text_black_gray"
+                android:textSize="15sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+</ScrollView>

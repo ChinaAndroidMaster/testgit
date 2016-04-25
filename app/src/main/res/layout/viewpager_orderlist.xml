@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.creditease.checkcars.ui.widget.XListView
+        android:id="@+id/viewpager_orderlist_xlv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/head"
+        android:background="@color/transparent"
+        android:divider="@color/bg_color"
+        android:dividerHeight="0dp" />
+
+    <TextView
+        android:id="@+id/viewpager_orderlist_tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="@string/str_carorders_info_no_orders"
+        android:textColor="@color/color_text_gray"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

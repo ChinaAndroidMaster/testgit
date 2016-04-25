@@ -1,0 +1,1320 @@
+Manifest-Version: 1.0
+Built-By: 2.0.0
+Created-By: Android Gradle 2.0.0
+
+Name: res/drawable-xhdpi-v4/bg_btn_cancel.png
+SHA1-Digest: hDdJnfTB7CErnI2VSJFZ+f1Dqb4=
+
+Name: res/drawable-xhdpi-v4/bg_input_bottom.9.png
+SHA1-Digest: CTrh0oXXHw/ny7iP5bCPmAgA3/4=
+
+Name: res/anim/push_bottom_out.xml
+SHA1-Digest: bQ9i9IrZx4wD++vKemRdhaHaxio=
+
+Name: res/layout/page_listv.xml
+SHA1-Digest: rgtgLUdOU3GFdqSikYizgvx9unU=
+
+Name: res/layout/question_answer_main.xml
+SHA1-Digest: FhvG9s8/SSI6jpxdqtLMPqbPYmQ=
+
+Name: res/drawable-xhdpi-v4/stardark.png
+SHA1-Digest: +a/hnh71X/Q7z8mYHYC4TBXUhb8=
+
+Name: res/drawable-xhdpi-v4/default_carimg.png
+SHA1-Digest: 2boKzwMtHfydCeVzS1IFJM212CU=
+
+Name: res/drawable-xhdpi-v4/ic_step_two.png
+SHA1-Digest: 8GrUO3U+NDf1L9GfUU07B4MLDGM=
+
+Name: res/drawable-xhdpi-v4/ming_photo_bg.png
+SHA1-Digest: b6v+bExvHi9qf4NAB4W9rvr3GJ0=
+
+Name: res/drawable-xhdpi-v4/bg_orders_left.9.png
+SHA1-Digest: eKseswNYkTwe0JYt4oQpd7zgldc=
+
+Name: res/layout/popupwindow_clear_pics.xml
+SHA1-Digest: Rkq5xYYS03O+ECYhhcE7TNHknhk=
+
+Name: res/drawable-xhdpi-v4/icon_school.png
+SHA1-Digest: 67xVIUnVOoe4VyR1a2SlwZ7nv4k=
+
+Name: res/drawable-xhdpi-v4/answer_edit_bg.9.png
+SHA1-Digest: yuXoqrIzA10+ZdkRw+Ew0tJn5T4=
+
+Name: res/drawable-xhdpi-v4/mine_divider.png
+SHA1-Digest: 3DNuimlmSDVgAjhRtf2UYAH9lPA=
+
+Name: res/drawable/btn_car_query_disable.xml
+SHA1-Digest: vRGKpyynNWm+MYvqsdzSSFmltIU=
+
+Name: res/layout/skyblue_editpage.xml
+SHA1-Digest: u8T2rOvDXzF1qFqVllLPqRKMIYo=
+
+Name: res/drawable-xhdpi-v4/btn_close_pressed.png
+SHA1-Digest: qDnFUcvFVTa12LM0gSFC8/UT9pA=
+
+Name: res/layout/viewpager_orderlist.xml
+SHA1-Digest: F0EctvkFE5vUcq/qm3DZlVbl15k=
+
+Name: assets/ShareSDK.xml
+SHA1-Digest: lGeCZ5hmNHj7wuCE6iY3UqxWla4=
+
+Name: res/drawable/skyblue_platform_list_item_selected.xml
+SHA1-Digest: yAY1vrUv0JAB7nzyNRfPzZd5RBE=
+
+Name: res/drawable/xlistview_anim_loading.xml
+SHA1-Digest: e3e72Kjx/EkDcy1qOE329xNgK6w=
+
+Name: res/layout-sw800dp-v13/dialog_loading.xml
+SHA1-Digest: GEfwK2s6SLK5j2dtAV7SeYpdRDU=
+
+Name: res/layout/car_order_search.xml
+SHA1-Digest: ZZaHa6aDo9vwmU1Y7vwTIy/rSTw=
+
+Name: res/drawable/radiobtn_tab_orders_selector.xml
+SHA1-Digest: jV4DWPZG3hA87TQiyAQ8+ZNMrgU=
+
+Name: res/drawable-hdpi-v4/ssdk_oks_ptr_ptr.png
+SHA1-Digest: 9kd0AO5yW4Cw2dCQSVxHH0y4eCM=
+
+Name: res/layout/main_tabs.xml
+SHA1-Digest: MIFBfIVtiDZqufSP5Y6UiLhhmwc=
+
+Name: resources.arsc
+SHA1-Digest: Xc4DVAMJEIIi2CfFxPjagf0fqaw=
+
+Name: res/drawable-xhdpi-v4/icon_arrow_right.png
+SHA1-Digest: dRZB7BD0PUXNmOlLMoT3oasZrs4=
+
+Name: res/drawable/bg_btn_pay.xml
+SHA1-Digest: GU93sEaJ7VMTTpLFncYWYfzv5i8=
+
+Name: res/layout/act_car_check.xml
+SHA1-Digest: /iBu2ca0mSSdRYGS/lb3sJ3iLxI=
+
+Name: res/layout/fragment_allcover.xml
+SHA1-Digest: bGGhdB90zL1jXnL5DscdYvKFnyE=
+
+Name: res/drawable-xhdpi-v4/bg_orders_left_selected.9.png
+SHA1-Digest: 9Swxx2egBmPxUT1dV8znBxuU1yQ=
+
+Name: res/drawable/bg_btn_dialog_ok.xml
+SHA1-Digest: QjKjmQhEV+ovftLUwWnO4dQe+lU=
+
+Name: res/drawable/edittext_focused.xml
+SHA1-Digest: Em7K2tdDWoBIk2UIplVwPg705+M=
+
+Name: res/drawable/bg_orders_mid_selector.xml
+SHA1-Digest: t0i6Ozh1U70YCx4XuzpDYHc+6rI=
+
+Name: res/drawable/edittext_normal.xml
+SHA1-Digest: yi2XfKgIQzNapA6230cRE/LsU6w=
+
+Name: res/drawable-xhdpi-v4/bg_btn_commit.9.png
+SHA1-Digest: KfixKXgkB6wVdON6DKvB1d/tQPU=
+
+Name: res/drawable-xhdpi-v4/mine_defaultimage.png
+SHA1-Digest: 38MCzRiMkUuwZ8QrsPKq/eysvkM=
+
+Name: res/drawable-xhdpi-v4/ic_step_two_passed.png
+SHA1-Digest: PNo8D3pZOrD0cYejth+f2vL9gd4=
+
+Name: res/drawable-xhdpi-v4/starlight.png
+SHA1-Digest: cxeJevtLbEZtlyasylTH4up0vIo=
+
+Name: res/layout/xlistview_header.xml
+SHA1-Digest: rdQBjvG1CsBlq7t90emktRk5YO4=
+
+Name: lib/armeabi-v7a/libcocklogic.so
+SHA1-Digest: vI2Mz9NWF6CaUYGlkWAG288WsPc=
+
+Name: res/drawable-xhdpi-v4/logo_wechatfavorite.png
+SHA1-Digest: TU1DRxLXD0h5Pqj0DuEQmhzmWGk=
+
+Name: res/layout/mine_edit_data.xml
+SHA1-Digest: eO4AOQiETH1NLyYMh92CpXq663o=
+
+Name: res/drawable-xhdpi-v4/btn_qrcode.png
+SHA1-Digest: gCD4F5SGwvRsZl8d4kAfQ3pR9j8=
+
+Name: res/layout/skyblue_editpage_at_layout.xml
+SHA1-Digest: kESO2DF1I3UYc6TtAG7RCUFxtXk=
+
+Name: res/drawable/image_bg_selector3.xml
+SHA1-Digest: 0d+XWBVjjmDYLIKNXuLgDIL0jWc=
+
+Name: res/drawable/btn_car_query_able.xml
+SHA1-Digest: ysPlkF9XIfRdPm/UVaI1SxTGybA=
+
+Name: res/layout-sw800dp-v13/act_login.xml
+SHA1-Digest: fJjVLRziKiSCFEjiBPSA2rYCkJA=
+
+Name: res/drawable-xhdpi-v4/bg_btn_order_unable.png
+SHA1-Digest: 0jxNmSzhCuYSIv7pOce06NGsKm8=
+
+Name: res/layout-v17/mine_current_state.xml
+SHA1-Digest: OEzmbE51z7+O34hQV9otYTlSPRI=
+
+Name: res/drawable-xhdpi-v4/pin.png
+SHA1-Digest: tkJyNZCYIH5408q/BJl7FHhCnrc=
+
+Name: res/layout/act_car_report.xml
+SHA1-Digest: co2Mu4BoqEPyiic9AhqJAfJRwms=
+
+Name: res/drawable/edittext_normal_send.xml
+SHA1-Digest: s5EpYMIBXt5Dh7jzuUMGvbFnsy8=
+
+Name: res/drawable/color_progressbar.xml
+SHA1-Digest: clfubKMi0s/r95XJ54IiExBpB3c=
+
+Name: res/layout-sw800dp-v13/act_aboutus.xml
+SHA1-Digest: /Yz9rHYRzLucw66X8gPYtFYzyTg=
+
+Name: res/drawable-xhdpi-v4/skyblue_editpage_divider.9.png
+SHA1-Digest: a62alA+xQMcpTwCns45e7camo84=
+
+Name: res/layout/dialog_pay.xml
+SHA1-Digest: EWu9/OGWw198TgKDLmYOin/Em/s=
+
+Name: res/drawable-xhdpi-v4/icon_postil.png
+SHA1-Digest: pO5a5qVqP3PpjPoMB+XAKNjlHxc=
+
+Name: res/drawable-xhdpi-v4/car_wheel.png
+SHA1-Digest: mCTqLiTWTi583xNiiyoG+IRB7qU=
+
+Name: res/drawable-xhdpi-v4/ssdk_logo.png
+SHA1-Digest: HIt2w5nGrGRMEzuoWuXFFeykfU4=
+
+Name: res/drawable/bg_btn_dialog_sure_selector.xml
+SHA1-Digest: KCHfGt9e9eaBfX2QSko2Eh12+NQ=
+
+Name: assets/js/post_form.js
+SHA1-Digest: AWxaxo4psX0lmIlMuSiyKO7B2XY=
+
+Name: res/drawable-xhdpi-v4/auth_follow_cb_chd.png
+SHA1-Digest: XRvmpZADzcwYRVQhbiXBiVbiwvw=
+
+Name: res/layout/mine_topic_list_item.xml
+SHA1-Digest: Y0fe/Cf6Jqd/N6oyPKSclIUJle4=
+
+Name: res/drawable-xhdpi-v4/skyblue_logo_wechat.png
+SHA1-Digest: 61qXEU0gmvQjtYA4AD0eo6t4+UU=
+
+Name: res/drawable-xhdpi-v4/shareselected.png
+SHA1-Digest: MW3xqVem6FmL8sWVFo9/Gm/7DhU=
+
+Name: res/drawable-hdpi-v4/un_passed_icon.png
+SHA1-Digest: LZka0GbYvu0EjJpTWWwkEiYtCCc=
+
+Name: res/drawable-xhdpi-v4/skyblue_editpage_image_remove.png
+SHA1-Digest: o4aH9//dYubOBnt7xM3t4h9wERQ=
+
+Name: res/drawable-xhdpi-v4/ic_carcheck_date.png
+SHA1-Digest: DtlCZTHhv0lKXo7zgZoUGl4Dyic=
+
+Name: res/drawable-xhdpi-v4/ssdk_back_arr.png
+SHA1-Digest: Rxbe81v2AIEM7XxW8FOEQrQfDqA=
+
+Name: res/layout-sw800dp-v13/include_car_comment.xml
+SHA1-Digest: JK6cyr+EZRIpIr4kWA/TrLwTKns=
+
+Name: res/drawable-xhdpi-v4/btn_red_normal.9.png
+SHA1-Digest: BBR4M/AL3Gpm3pxFiXbOPx4HWsE=
+
+Name: res/drawable/bg_btn_orderitem.xml
+SHA1-Digest: ZZiNhEeuphldemmHsAxlvhHrgYY=
+
+Name: res/drawable-xhdpi-v4/tab_detection_unselect.png
+SHA1-Digest: 8JZZCVvv/TyYaPTFVTvDBxqkoEg=
+
+Name: res/drawable-xhdpi-v4/ic_step_three_passed.png
+SHA1-Digest: rVkqgmHcX8CErsOezi/Fk6XflUc=
+
+Name: res/drawable-xhdpi-v4/btn_red_pressed.9.png
+SHA1-Digest: V0cxNLburd5tj3W+tzAXnPggt8s=
+
+Name: res/drawable-xhdpi-v4/ic_checked.png
+SHA1-Digest: scR6WIM6PBHoLEPwu1xAYTy37dM=
+
+Name: res/drawable-xhdpi-v4/rb_level_3_checked.png
+SHA1-Digest: DLflkf/AWFC6U2JxCiGziBLnVn0=
+
+Name: assets/imgs/shifu_logo.jpg
+SHA1-Digest: ddlqV8waTH3Y2lHeQvcVJRKNgd8=
+
+Name: res/drawable-xhdpi-v4/bg_orders_mid.9.png
+SHA1-Digest: AGtegLKr2OUiXlYsTYzpFbSuAG0=
+
+Name: res/layout/notify_msg.xml
+SHA1-Digest: wINal2dh1QcOCJ0E2TMorelyOgw=
+
+Name: res/drawable-xhdpi-v4/order_search_cancel.png
+SHA1-Digest: eb8hi/SyxNB+BcbFrdSAe1ZAV6U=
+
+Name: res/drawable-xhdpi-v4/rb_level_1_checked.png
+SHA1-Digest: BkV7XMsuIL4ZNnBBiOR9m5o4Xto=
+
+Name: res/layout-sw800dp-v13/act_car_orders.xml
+SHA1-Digest: m2gmbN3NS9Kel5D6hQ/gExkQcTg=
+
+Name: res/drawable-xhdpi-v4/logo_whatsapp.png
+SHA1-Digest: 2i3QuMmwTysY42uYxYZq5SFGIF4=
+
+Name: res/layout-sw800dp-v13/listitem_carorder.xml
+SHA1-Digest: aMJCLY1ldCzaPkdUTdr/vISDk7c=
+
+Name: res/layout/include_header_tv.xml
+SHA1-Digest: VEcYzVEmziPGXY6sVJ3lz/fxo3U=
+
+Name: res/drawable-xhdpi-v4/icon_qa_selected.png
+SHA1-Digest: Z8PRreSYizjsENsHf6tHaE+CvDo=
+
+Name: res/drawable/btn_close_selector.xml
+SHA1-Digest: 6VCQRpl4Ngr0DgYi38pNpnnqoew=
+
+Name: res/drawable-xhdpi-v4/btn_clear.png
+SHA1-Digest: lySLLFGrRykDN0crMWsDOJvAcPI=
+
+Name: res/layout/act_feedback.xml
+SHA1-Digest: /8WJY8VQ7qzzzVcxOABuWW7EKTk=
+
+Name: res/drawable-xhdpi-v4/ssdk_title_div.png
+SHA1-Digest: DloK2NAixcsnyoNpzHoN1vuEAzU=
+
+Name: res/layout/notification_view.xml
+SHA1-Digest: umXdDoqhxhw4dWduqlKW/DCdjhQ=
+
+Name: res/drawable-xhdpi-v4/btn_back_pressed.png
+SHA1-Digest: eQmoPlKFWJ34V4msV6fOnwRgvHg=
+
+Name: res/drawable-xhdpi-v4/mine_main_setting_selected.png
+SHA1-Digest: n0ilW+q3eDSrkrnILG9y2I1cars=
+
+Name: res/layout/mine_access_list.xml
+SHA1-Digest: EhwF9V/SWCUBVcgRqP5alIVJApU=
+
+Name: bin/classes.dex
+SHA1-Digest: KbxitwELlNfNNl5cvYCPb5a4hpg=
+
+Name: res/drawable/btn_back.xml
+SHA1-Digest: QV4YNQ0W1o1GvmoAA4l7qvj75vI=
+
+Name: res/drawable-xhdpi-v4/loading_bg.9.png
+SHA1-Digest: gkXKM4RsvDEdAREG6vb6mZCCPjw=
+
+Name: res/layout-v17/mine_edit_data.xml
+SHA1-Digest: FQEbQwjneAXY6fITRCwwHW83Tsk=
+
+Name: res/layout/act_main.xml
+SHA1-Digest: JNGAl+MhwJQUPOQNZd1ixfPVuCE=
+
+Name: res/drawable-xhdpi-v4/bg_btn_cancel_pressed.png
+SHA1-Digest: XF0YQ4JktDsyiWV1/1U2qS0TNug=
+
+Name: res/drawable/image_bg_selector2.xml
+SHA1-Digest: QkSCDEwMYHjFzSZwE0hV/ZVrizk=
+
+Name: res/drawable-hdpi-v4/bg_dialog.9.png
+SHA1-Digest: KG3g7gadqS7p8LEE4gaNBFb1gRs=
+
+Name: res/drawable/color_text_selector.xml
+SHA1-Digest: DSEvD3fzI9BtSqz31qCMDPaT84c=
+
+Name: res/layout/frame_mine.xml
+SHA1-Digest: JaGw5jjf804+DJF/M6JzKTvGWR0=
+
+Name: res/drawable-xhdpi-v4/btn_clear_disabled.png
+SHA1-Digest: qqp8zIaefWz8rJ9YnzxAPjg8Mbg=
+
+Name: res/drawable-xhdpi-v4/ic_step_done_passed.png
+SHA1-Digest: YKUAzRoEu+8NauHdE38TN94SCOM=
+
+Name: res/drawable-xhdpi-v4/title_back.png
+SHA1-Digest: 8EcpaCKgMqZtOt/JhCiOEs6yIKI=
+
+Name: res/drawable-xhdpi-v4/skyblue_platform_checked.png
+SHA1-Digest: xbJ+ymhGGTrPNyqOFtWZ+ls29tY=
+
+Name: res/drawable-hdpi-v4/guide_02.png
+SHA1-Digest: ne2T6hFydhSefJWCkGqDpwpTugY=
+
+Name: res/layout/mine_current_state.xml
+SHA1-Digest: 9Zvei+bNQvDZthubArxSckkFld4=
+
+Name: res/drawable-xhdpi-v4/skyblue_logo_qq.png
+SHA1-Digest: z5bEP1fdVQPprvplahiukd//JWI=
+
+Name: res/drawable/bg_orders_left_selector.xml
+SHA1-Digest: 3l4UuEd4FxosLTyTTCcV2Id4LjY=
+
+Name: res/layout/include_car_comment.xml
+SHA1-Digest: fBkiavVryOeNUZR00HyBFmMh7Nc=
+
+Name: res/drawable-xhdpi-v4/bg_input_top.9.png
+SHA1-Digest: 9K9Jv8c7lHU6Q2B9FDKb+d0b+rA=
+
+Name: res/layout/act_reportauditdetail.xml
+SHA1-Digest: /Hc1q4W34CKtB4qBeRQvzc7UCo0=
+
+Name: res/drawable/rating_bar.xml
+SHA1-Digest: ZmH4lMD+yruSfX4LDZe8pWf340w=
+
+Name: res/drawable-xhdpi-v4/bg_btn_order_normal.9.png
+SHA1-Digest: QgayfoY5QB4thCt2MDAKycR5AdI=
+
+Name: res/layout/skyblue_editpage_inc_image_layout.xml
+SHA1-Digest: Q6W6vZSC7fmmQHsjUHqeDgBB9PE=
+
+Name: res/drawable-xhdpi-v4/ic_carcheck_userguide.png
+SHA1-Digest: DhyfiiOGOoz6Kk2DkjY7Mf/DFJE=
+
+Name: res/layout/dialog_dateselect.xml
+SHA1-Digest: M9ZNCsxRSXwblNE4r3tAUqkvWA8=
+
+Name: res/layout-v13/car_order_search.xml
+SHA1-Digest: ze7K8mI/6tYt0TLy+Er0M3Ooqu0=
+
+Name: res/layout-v17/question_answer_item.xml
+SHA1-Digest: bPykmYrauSfrwkRAF/zNKNutJFo=
+
+Name: res/layout/dialog_loading_gif.xml
+SHA1-Digest: PmVGUbf6q1FiqvyrUxhMB3qmCoA=
+
+Name: res/layout-sw800dp-v13/dialog_commitreport.xml
+SHA1-Digest: k6GrXqI0Z8M3DBv7sx3n0ggH9dQ=
+
+Name: res/drawable-xhdpi-v4/order_search_white.png
+SHA1-Digest: KggUlufRCqu3BAZaMfeswpQ3IMU=
+
+Name: res/drawable/bg_btn_able.xml
+SHA1-Digest: 6eFkP7kY5rU0DShfyU8If6ZN24g=
+
+Name: res/drawable-xhdpi-v4/btn_cancel_back.9.png
+SHA1-Digest: iuww8MuZRFt/Fc9OtRVJBMpKjjw=
+
+Name: res/layout-v13/show_car_info.xml
+SHA1-Digest: bjKeTC0FiBZ/TNmtSHMmS4cCxSM=
+
+Name: res/drawable-xhdpi-v4/bg_btn_paydetail.9.png
+SHA1-Digest: y88I2WcILZokAYdHAQ3CO8+420Y=
+
+Name: res/drawable/btn_qrcode_selector.xml
+SHA1-Digest: PJVa7jypryWcLiUoEPDipnReBYc=
+
+Name: res/layout/popupwindow_listitem_tv.xml
+SHA1-Digest: JOKIgJh6DupRYQgvx7/oBbskvmo=
+
+Name: assets/css/shifu.css
+SHA1-Digest: VOGABbB7KK5rApEzl/oEtOiEPjI=
+
+Name: res/anim/push_right_in.xml
+SHA1-Digest: BwcPgx03CQfpAQbVXUBgJlyZE9o=
+
+Name: res/drawable-xhdpi-v4/bg_btn_dialog_datepicker_left.9.png
+SHA1-Digest: wCCeI8knZxL6b/ZadA3TupRbcbY=
+
+Name: res/layout-v11/dialog_dateselect.xml
+SHA1-Digest: 21hsFHjH2iPydTkg4WKQI5a70DI=
+
+Name: res/drawable-xhdpi-v4/order_search_orange.png
+SHA1-Digest: 65ys5m6L0FKyItLdoDkWSurWJKY=
+
+Name: res/drawable-xhdpi-v4/rb_level_3_normal.png
+SHA1-Digest: FrWz7q3P2J8jzCmKjIE/yrexK3E=
+
+Name: res/drawable-xhdpi-v4/ic_reg_success.png
+SHA1-Digest: 3OYCIdTDLhqgvvt+GuS72A09V7I=
+
+Name: res/layout/listitem_carorder_item_report.xml
+SHA1-Digest: 1EeJBu3IH6B14WlV+5SGJiVqhOA=
+
+Name: assets/js/jquery-1.8.3.min.js
+SHA1-Digest: BuhyMACIubqKCEJ9KO0O/N+cb/U=
+
+Name: res/drawable-xhdpi-v4/report_unpass.png
+SHA1-Digest: zChUmVXmNsFCkhqin+XC7OiO3yQ=
+
+Name: res/layout/listitem_picview.xml
+SHA1-Digest: twwZGTB6P4V4QMY77nvIx6Vu2y0=
+
+Name: res/layout/include_tab_topview_saler_detection.xml
+SHA1-Digest: QWpGQUszy7sBtyRBLaasVTg68qI=
+
+Name: res/layout/car_pre_report_item.xml
+SHA1-Digest: 5xRGBKWGtNLju0khsQddsLCzdiY=
+
+Name: res/drawable-xhdpi-v4/ic_carcheck_mode.png
+SHA1-Digest: tUHpR3o5caUGN2tJ9g8u4EuPTAA=
+
+Name: res/layout/act_pay.xml
+SHA1-Digest: 4iB9B35c/sve0PVHi6pPwX/YtbE=
+
+Name: res/drawable/bg_btn_checkitem_photo.xml
+SHA1-Digest: W6aE7H24CMVgvzZr1XZ/G2IKKIQ=
+
+Name: res/layout/fragment_orders.xml
+SHA1-Digest: SOK/0jEZAGUbLVzTuJZ7TqrG7Oc=
+
+Name: res/drawable-xhdpi-v4/ic_step_one_passed.png
+SHA1-Digest: p0XGZ2ZdANs6kOe+iRya7TGmBDQ=
+
+Name: res/drawable-xhdpi-v4/icon_aboutus.png
+SHA1-Digest: w+s32wLF0R9LJ8+TyfqzDx0k404=
+
+Name: res/drawable-xhdpi-v4/mine_main_market.png
+SHA1-Digest: pjdYSTYe3ko9zCYw88rOwnmePn0=
+
+Name: res/drawable-xhdpi-v4/skyblue_logo_wechat_checked.png
+SHA1-Digest: V+oqqhtS6tC6kxKh9MVqSEeEbOc=
+
+Name: res/drawable-xhdpi-v4/btn_qrcode_pressed.png
+SHA1-Digest: f8AsTPHOc7XAIpHeqAKCDIy7qIw=
+
+Name: assets/checkitem.txt
+SHA1-Digest: L9hP9M0otL6xkouu5rWCkRStMpg=
+
+Name: res/drawable-xhdpi-v4/ic_email_msg.png
+SHA1-Digest: rriM2vH3FagzIis1hCzuMmA5Raw=
+
+Name: res/layout/include_tab_saler.xml
+SHA1-Digest: 6vSlG/YzBQtli/agWWUP49PLqrg=
+
+Name: res/layout/skyblue_share_platform_list_item.xml
+SHA1-Digest: eXVTNDR1vIqBYPJMvEktaHGbRL0=
+
+Name: res/drawable-xhdpi-v4/logo_qq.png
+SHA1-Digest: rGbqeKK4SIiunyk+LxzQw9BGtQU=
+
+Name: res/drawable-xhdpi-v4/icon_activities_selected.png
+SHA1-Digest: kSUcRL+kJe04yEdKNUEqdM5SrPA=
+
+Name: res/drawable-xhdpi-v4/answer_big_error.png
+SHA1-Digest: h3RlsxC135B0/QfZhZ44irlWBTY=
+
+Name: res/drawable-xhdpi-v4/mine_main_halftrparent.png
+SHA1-Digest: j1KphUciWoeRytSKJdyOMRHt0YE=
+
+Name: res/layout-v17/mine_basic_data.xml
+SHA1-Digest: 5eYAGeh7gD/PMqi2Tj3a0xIcpGE=
+
+Name: res/anim/push_left_in.xml
+SHA1-Digest: fPoxTHur9KOBvc9gS6JZ64FVY7Q=
+
+Name: res/drawable/bg_btn_remark_done.xml
+SHA1-Digest: sQeXbgAirBQszUEOhVhJIxcMIAg=
+
+Name: res/drawable-xhdpi-v4/ic_item_order_address.png
+SHA1-Digest: q9jbRWtShddXve1c4ccijasdRrI=
+
+Name: res/drawable-xhdpi-v4/ic_carcheck_tickets.png
+SHA1-Digest: lxS324CNi8nRPhVGZXgXg+Ejgzk=
+
+Name: res/drawable-xhdpi-v4/icon_assess_car.png
+SHA1-Digest: /0vC2GMfhiVRQLQxplfHUZdRj+k=
+
+Name: res/drawable-xhdpi-v4/mine_main_bg.png
+SHA1-Digest: u/LvA0NnAFgCHwgjs+N2ns+bX8s=
+
+Name: res/drawable-xhdpi-v4/skyblue_logo_pocket.png
+SHA1-Digest: UgYdb/0e+hJZlg1oxOlk9OhomDU=
+
+Name: res/drawable-xhdpi-v4/car_pre_empty.png
+SHA1-Digest: Yx4cqtYvURE7EW+HmG2wJJOsq3I=
+
+Name: res/drawable-xhdpi-v4/mine_main_income.png
+SHA1-Digest: 979iYcO9zHWpBRpQZgZSBQjnX2o=
+
+Name: res/drawable/text_circle_bg.xml
+SHA1-Digest: +Z+J44uyGXOQDqMXAOCJq+8R16Y=
+
+Name: res/drawable-xhdpi-v4/ic_carcheck_registdata.png
+SHA1-Digest: YPoDHrtIQy3kse+BnRG4dpbaDHw=
+
+Name: res/drawable-xhdpi-v4/mine_main_incomesort.png
+SHA1-Digest: YmUdDKK5esetRFZtpvaJG8TW+AE=
+
+Name: res/drawable-xhdpi-v4/skyblue_actionbar_ok_btn.png
+SHA1-Digest: oXmkDeSiTuz+JPINuzlzysTBKxc=
+
+Name: res/drawable/bg_btn_commit_selector.xml
+SHA1-Digest: rDX3LvQcNztiOEQAQA38eTRAZOw=
+
+Name: res/drawable-xhdpi-v4/ic_step_line_undo.png
+SHA1-Digest: yYeVOc0MF2Wd4LQor33mNcB0vt4=
+
+Name: res/layout/include_header_order.xml
+SHA1-Digest: e/ZLci8tYgF3mB3YCCKs9TWpDQQ=
+
+Name: res/drawable/bg_btn_paydetail_selector.xml
+SHA1-Digest: d0SSDWe0/x/hFqt24HTFrvMSRtk=
+
+Name: res/drawable/bg_btn_dialog_datepicker_left_selector.xml
+SHA1-Digest: OYCEiz9MLDIuF2nO60e7iZB1Sf0=
+
+Name: res/drawable-xhdpi-v4/ic_carcheck_yeartype.png
+SHA1-Digest: hp9E0yeQsyI7bha3qOSApu+MQ+o=
+
+Name: res/layout/fragment_main.xml
+SHA1-Digest: Snif+JneFD7si/HBi+O/fUHu9EQ=
+
+Name: res/layout/loading.xml
+SHA1-Digest: kqrhSQ10BDooErTuQQT2C0O0YCw=
+
+Name: res/drawable-xhdpi-v4/skyblue_editpage_close.png
+SHA1-Digest: txmJxAjvgTE1qsDASiGz/Eywsbc=
+
+Name: res/layout/listitem_imgv.xml
+SHA1-Digest: mM+tThzHx7EXZKv2Pemuc+kyhbA=
+
+Name: res/drawable-xhdpi-v4/bg_orders_right_selected.9.png
+SHA1-Digest: 6NN8GXGlwcWRI3fUHwqJo+ku37U=
+
+Name: res/layout/answer_item.xml
+SHA1-Digest: 7A1LnfsB9y3FK7/5Dqz+g03a2Us=
+
+Name: res/layout-sw800dp-v13/include_header.xml
+SHA1-Digest: w8VSbyJaBlphVDomUyYw0qQAxBA=
+
+Name: res/drawable-xhdpi-v4/icon_qa.png
+SHA1-Digest: u6r8XyZD7bwcqrMxX2K42TZquy8=
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA1-Digest: Q9y4BoirQdbSj14FtMJexgmWCi4=
+
+Name: res/layout/include_tab_topview_saler_allcover.xml
+SHA1-Digest: K3Va2UBpgrZpzYIFckHNNjqpAzU=
+
+Name: res/layout/skyblue_share_actionbar.xml
+SHA1-Digest: /OpnevXQUveFS5oHEBxf5O6Qsf4=
+
+Name: res/drawable-xhdpi-v4/bg_pay_down.png
+SHA1-Digest: aOtwS0xUcIoQs8v8K7OTTF9SjY8=
+
+Name: res/drawable-xhdpi-v4/icon_orders_unselected.png
+SHA1-Digest: qz0mU1yhPHIZkjhg3FwF+9P/G8Q=
+
+Name: res/drawable-xhdpi-v4/bg_tab_bottom.9.png
+SHA1-Digest: SEvtRVf5W4aeOWPViN/8SjhbLOc=
+
+Name: res/layout/mine_access_list_item.xml
+SHA1-Digest: gsAODrAP/r0qhlZRxNAH0VAs0n4=
+
+Name: res/drawable-xhdpi-v4/ic_carcheck_factorycert.png
+SHA1-Digest: T48jLjWuHSui/igh1FhGVGk0600=
+
+Name: res/drawable-xhdpi-v4/rb_level_2_checked.png
+SHA1-Digest: sHYA5etwr+rhYA68J37+i8/Hw6Q=
+
+Name: res/anim/car_body_translate.xml
+SHA1-Digest: L9EoK6tKdUARD8ZozHLK4eu1loc=
+
+Name: res/drawable-xhdpi-v4/ic_agreement_pressed.png
+SHA1-Digest: mrMQ+pMjT81WhE9ceBIM6/i6b5I=
+
+Name: res/drawable-xhdpi-v4/ic_uncheck.png
+SHA1-Digest: gjzOrNQEZZAmznorj00GrgOrgyY=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: Q9y4BoirQdbSj14FtMJexgmWCi4=
+
+Name: res/drawable-xhdpi-v4/tab_allcover_unselect.png
+SHA1-Digest: Z8dP7fnngo2YoHv2cCAoFNRPLeQ=
+
+Name: res/layout/main_tabs_saler.xml
+SHA1-Digest: +euAuYO19MVg+bwP4Slf6qvrox0=
+
+Name: res/layout/activity_select_photo.xml
+SHA1-Digest: 0AQtlHSQakaZ/oLaxg8x17kJzIQ=
+
+Name: res/layout/mine_setting.xml
+SHA1-Digest: eAfpRCw+yWaCwbhBujVi4Nq3ggs=
+
+Name: res/drawable-xhdpi-v4/xlistview_droparrow_up.png
+SHA1-Digest: iujz/RJEmN8U3LuMvPKmqu6tNcM=
+
+Name: res/drawable-xhdpi-v4/answer_accepted.png
+SHA1-Digest: 8Nwca53d6WHuxxdnvb8cHNghs5o=
+
+Name: res/drawable-xhdpi-v4/xlistview_droparrow.png
+SHA1-Digest: AtbmucApo08S2nVwtYUi4J0WLe8=
+
+Name: res/layout/act_login.xml
+SHA1-Digest: UYcEiK+h2ruK4xybRK4fKf3vPok=
+
+Name: res/drawable-xhdpi-v4/wel.jpg
+SHA1-Digest: VlNMS+wbNpOEBgVLQp5Cs6h/q0g=
+
+Name: res/drawable/bg_orders_right_selector.xml
+SHA1-Digest: sBnLD13ZIgCEzJxO5+dF3gp/Oxk=
+
+Name: res/drawable-xhdpi-v4/btn_back_nor.9.png
+SHA1-Digest: aETLCyCFSNULu7fA07HxtLC5wbs=
+
+Name: res/drawable-xhdpi-v4/ic_phone_call.png
+SHA1-Digest: 3XJR0LTyLXFBgVVgGCPZOsA6z4c=
+
+Name: res/drawable-xhdpi-v4/order_search_grey.png
+SHA1-Digest: YKlhqZeKCi4MkQJ4zY+/aqXlZV0=
+
+Name: res/anim/push_left_out.xml
+SHA1-Digest: QbGDkCrYZ65q+xBoiBQtu7Mu6/s=
+
+Name: res/drawable-xhdpi-v4/slip_off_bg.png
+SHA1-Digest: UiMSBEjF8RmRE9MxGh+sLQ8sVvU=
+
+Name: res/layout-sw800dp-v13/include_header_tv.xml
+SHA1-Digest: c7UmT7rik3y5qN4idRhE9oME7pA=
+
+Name: assets/js/jquery.cookie.js
+SHA1-Digest: r0EXNiuED4WoMqaOBbU6S5agTps=
+
+Name: res/layout-v17/car_pre_report_item.xml
+SHA1-Digest: ztxjufv3iEzkjZasyUfpivEVgV0=
+
+Name: assets/js/selectpick.js
+SHA1-Digest: 8zgGyYAL4TpJHPbZWDzVHvJVrLM=
+
+Name: res/drawable-xhdpi-v4/skyblue_logo_qzone_checked.png
+SHA1-Digest: SpfYFk2S7oJ4oi/clGdsZV/mQ8Q=
+
+Name: res/drawable/btn_order_searcher_selector.xml
+SHA1-Digest: KJYw2vBsKelDh/X/BvRIK3OCHJ4=
+
+Name: res/layout-v17/include_header_order.xml
+SHA1-Digest: LtKKURXvU6/m6ZNG6c3ZUr0EVjE=
+
+Name: res/drawable-xhdpi-v4/icon_car_prereport.png
+SHA1-Digest: EgM2DVb2Wpmz4Nq3CGtkAh2UabA=
+
+Name: res/drawable-xhdpi-v4/mine_data_bg.9.png
+SHA1-Digest: cVJoONt33LUM40Plx+Gcg9T22os=
+
+Name: res/drawable-xhdpi-v4/btn_back_normal.png
+SHA1-Digest: ExXOPJwi1mg5D2YB/T6ZF6O3xOM=
+
+Name: res/layout/dialog_feeinfo.xml
+SHA1-Digest: yOFyIIApslJ7BwGp9Y+so5kWrno=
+
+Name: res/drawable/bg_btn_unable.xml
+SHA1-Digest: TySUioJGdBrkC1yf2ByJqzpPJqs=
+
+Name: res/drawable-xhdpi-v4/bg_input.9.png
+SHA1-Digest: pRVbc83zADrYSfuy5uvqWuIrdOs=
+
+Name: res/drawable-xhdpi-v4/skyblue_actionbar_back_btn.png
+SHA1-Digest: P16+zxy9aQLYvjckxI/moudVZTU=
+
+Name: assets/loading_data_image.gif
+SHA1-Digest: P5ffWt+Fxu5EbObaO4mOv31B4dY=
+
+Name: res/layout/act_resetpwd.xml
+SHA1-Digest: OHskC+hVC+YbBdnlDETdLp/dZK4=
+
+Name: res/layout/act_aboutus.xml
+SHA1-Digest: +s6E+u4K2M598L6Pr5kOgPeYWUg=
+
+Name: res/layout-v13/mine_setting.xml
+SHA1-Digest: 5NYvUC/Y/brPEuOaOotjVMgpKTg=
+
+Name: res/drawable-xhdpi-v4/car_pre_start_icon.png
+SHA1-Digest: 5avN7Df/zTZa6kIvZ5JyeQLFWJ8=
+
+Name: assets/js/jquery.getUrlParam.js
+SHA1-Digest: aWwoKWRJEx8DFzHZp0sVpeuYCHA=
+
+Name: res/drawable-xhdpi-v4/ic_item_order_fee.png
+SHA1-Digest: utVettRdL+MpT4NK2YVaeLEWHFU=
+
+Name: res/drawable-xhdpi-v4/skyblue_logo_wechatmoments_checked.png
+SHA1-Digest: q4emQ6Ys2q95U3GIH0dDqX//XvM=
+
+Name: res/layout/act_webv.xml
+SHA1-Digest: 4KlTJVpwzOujWwoVVdJLXZ25wuA=
+
+Name: res/drawable-xhdpi-v4/bg_pay_middle.png
+SHA1-Digest: 5+Rs///jgkqaKREuONwBBUYdwHs=
+
+Name: res/drawable/car_pre_report_text_edge.xml
+SHA1-Digest: gQOuRDHiqFoCsvBeLB3jXA7hPpY=
+
+Name: res/drawable-xhdpi-v4/bg_btn_order_pressed.9.png
+SHA1-Digest: rA4iaRh83uh48qiwm2StnJaEG5I=
+
+Name: res/drawable-xhdpi-v4/logo_wechat.png
+SHA1-Digest: G/pXSTfACj3pSNAdyPhi9GP04a0=
+
+Name: res/drawable-xhdpi-v4/icon_point.png
+SHA1-Digest: 6sDd3RlogHFPvVSF5ZDc3DKZUpM=
+
+Name: res/drawable-xhdpi-v4/bg_btn_sure_pressed.png
+SHA1-Digest: qgtPowd45azSx7Dc7LVNnITrS1k=
+
+Name: res/drawable-xhdpi-v4/icon_carcheck_vin.png
+SHA1-Digest: i+zyY1tapB0r6HGanLW0CrblCYY=
+
+Name: res/drawable-xhdpi-v4/title_shadow.png
+SHA1-Digest: LALhXzWajUQxP3OEPz9GPgH0DTc=
+
+Name: res/drawable-xhdpi-v4/img_cancel.png
+SHA1-Digest: NsZVk5t/jVR+MDbSD8IrRZ2uWkM=
+
+Name: res/drawable/rb_carcheck_level_3_selector.xml
+SHA1-Digest: tI1SWK+rIjBWTcGFs3ET4dwJV4g=
+
+Name: res/drawable-xhdpi-v4/ic_step_undo.png
+SHA1-Digest: fsVjTXyQU7GVaCw9N7m3AjAOF3g=
+
+Name: res/drawable-xhdpi-v4/logo_wechatmoments.png
+SHA1-Digest: ZO2E9To4ai1HUSZU0ie/+5Jdvy0=
+
+Name: res/anim/push_right_out.xml
+SHA1-Digest: 6CG2JgRF4/5l9tZOZDz6jkjhU4s=
+
+Name: res/anim/car_line_translate.xml
+SHA1-Digest: WtvXMeiArPuIS9uN/6NU8PEI44U=
+
+Name: res/drawable/rb_carcheck_level_4_selector.xml
+SHA1-Digest: vq3gYlA5fQ3tDmnKkBZWXnr6Y7Y=
+
+Name: AndroidManifest.xml
+SHA1-Digest: Wi1EH+XJSZL8iVgML7zDE585h+s=
+
+Name: res/color/edit_text_selector.xml
+SHA1-Digest: IRGK8ZTAFxIx9dOtELn/KyGgS7s=
+
+Name: res/drawable-xhdpi-v4/bg_answer.png
+SHA1-Digest: 8G8snNrDt/n6oImkCdTSo34mUls=
+
+Name: res/drawable-xhdpi-v4/edittext_back.9.png
+SHA1-Digest: +ma5idqpzzi9ikdcQbLysoSTvmQ=
+
+Name: res/drawable-xhdpi-v4/ic_item_order_carser.png
+SHA1-Digest: j4Ag5ae9p3xZjZNDjlavP3jjL58=
+
+Name: res/drawable-xhdpi-v4/skyblue_logo_wechatmoments.png
+SHA1-Digest: TflSNm/Jl3/CDVxRHpsxyiDyjQw=
+
+Name: res/layout/act_car_orders.xml
+SHA1-Digest: n+gIacRTnU4blGXifbmDoB5EQ74=
+
+Name: res/drawable/btn_red.xml
+SHA1-Digest: QzK4exBUbxUeb//O9JKHN5adRZA=
+
+Name: res/drawable-xhdpi-v4/mine_arrow_right.png
+SHA1-Digest: dRZB7BD0PUXNmOlLMoT3oasZrs4=
+
+Name: res/drawable-xhdpi-v4/skyblue_editpage_image_bg.9.png
+SHA1-Digest: jzCQG56dDhQmV5favbZetNePgs8=
+
+Name: res/drawable-xhdpi-v4/icon_fee_total.png
+SHA1-Digest: dxILsFIzACz/LCZmLD4K7eez8w0=
+
+Name: res/layout/question_answer_item.xml
+SHA1-Digest: Xpjrulm1y21Auis+zEaPRiQzzz4=
+
+Name: res/layout-v17/notification_view.xml
+SHA1-Digest: uKQc7Tl9uGgrsVPxVy38ldHVh5M=
+
+Name: res/drawable/btn_close_agreement.xml
+SHA1-Digest: sQ0nDPHAFKQ02jkm2jsQ7XvBizM=
+
+Name: res/drawable/edittext_bg.xml
+SHA1-Digest: 4fVl7Eg3a02lbooLoRPGTunhCi0=
+
+Name: res/layout/include_step_phone.xml
+SHA1-Digest: lkirkMhNdALcjMdFgnJqSMLqU08=
+
+Name: res/drawable-xhdpi-v4/icon_qa_unselected.png
+SHA1-Digest: vSO85dpMCCAUCakKRCXIT/vztxE=
+
+Name: res/drawable-xhdpi-v4/slip_on_bg.png
+SHA1-Digest: nqDfBslGjANci1ZkGaVrIIwwDHc=
+
+Name: res/layout-v17/listitem_carorder_item_report.xml
+SHA1-Digest: 7IRSEoXcltkBbottIy+u+6PXpWQ=
+
+Name: res/drawable-xhdpi-v4/skyblue_platform_checked_disabled.png
+SHA1-Digest: knruN4XslE9zL23iJ0w2VqtKYcI=
+
+Name: res/drawable-xhdpi-v4/ic_agreement_normal.png
+SHA1-Digest: WXRw/lYJAdJCKymm7+TRoiRFtM4=
+
+Name: bin/resources.ap_
+SHA1-Digest: 1WGi0BgdJck1lKXnJrHC83iC7H8=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA1-Digest: Q9y4BoirQdbSj14FtMJexgmWCi4=
+
+Name: res/layout/popupwindow_default_listv.xml
+SHA1-Digest: U6MfQIm/oGc7Op6ltB7TaJIOa6Y=
+
+Name: lib/armeabi-v7a/libtnet-2.0.17.2-agoo.so
+SHA1-Digest: QFke2ehDiBtLEsJVLloo8qbsmdw=
+
+Name: res/drawable-xhdpi-v4/icon_orders_selected.png
+SHA1-Digest: GeltcEqAbbMfacus5p7WBVd6G90=
+
+Name: res/drawable-xhdpi-v4/icon_version_new.png
+SHA1-Digest: CDdFOpr+v6T5bW7sdDcMkwJg32A=
+
+Name: res/layout-v11/loading.xml
+SHA1-Digest: 5n4DjDh1/6qpzD/suNLT9pIUxYM=
+
+Name: res/anim/push_bottom_in.xml
+SHA1-Digest: 0ITsGBtvmOdkxd3ZgAcejF0WzXE=
+
+Name: res/layout/answer_popupwindow.xml
+SHA1-Digest: eTRARnv0MnlmFtF/A/Hn6MbgdSo=
+
+Name: res/drawable-xhdpi-v4/ic_step_done.png
+SHA1-Digest: M1wK/eVQ6ClYYjWlhQT2M77csks=
+
+Name: assets/js/h.js
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: res/drawable-xhdpi-v4/mine_main_traspaentdivider.png
+SHA1-Digest: 8mRoJ+6msjbknU8hPq7QrH70t9g=
+
+Name: res/drawable-xhdpi-v4/ic_phone_small.png
+SHA1-Digest: V270aeTIsCB+tyDBVYKRUm9RKd4=
+
+Name: res/drawable-xhdpi-v4/tab_detection_selected.png
+SHA1-Digest: V0cSYRj6RDTO/v1jbWyCuGmCYTk=
+
+Name: res/drawable-xhdpi-v4/car_pre_start.png
+SHA1-Digest: 5avN7Df/zTZa6kIvZ5JyeQLFWJ8=
+
+Name: res/layout/fragment_activities.xml
+SHA1-Digest: T5xB4wk7cQ3cR/DpXyeYEn9uyIo=
+
+Name: res/drawable-xhdpi-v4/icon.png
+SHA1-Digest: MUdRZJO3wSPUSZQhxwaKhidDY5I=
+
+Name: res/drawable-xhdpi-v4/rb_level_2_normal.png
+SHA1-Digest: rkGoKfgoZmNtkvJKEjQnvxyxi88=
+
+Name: res/drawable-xhdpi-v4/ic_step_three.png
+SHA1-Digest: nGADMAZ2vFNoq/vUQlwkHe4A3Ek=
+
+Name: res/drawable-xhdpi-v4/icon_checkitem_photo.png
+SHA1-Digest: xnqOolhNJeaLB+ryhttSxZ3xCD8=
+
+Name: res/layout-v17/car_order_search.xml
+SHA1-Digest: dv7yGMGN4qDpzqlYL2bzM486XqI=
+
+Name: res/drawable-xhdpi-v4/ic_carcheck_emissionstandards.png
+SHA1-Digest: akxZz8dMvFN17JOMgF/N9XjrxdE=
+
+Name: res/drawable-xhdpi-v4/mine_main_assess.png
+SHA1-Digest: TbSLs/L3KLmJ81JWuICrPufw/ZY=
+
+Name: res/anim/car_wheel_ratate.xml
+SHA1-Digest: qs7qqbeMtfdvRRBlHN20YGCkVZw=
+
+Name: res/drawable-xhdpi-v4/car_body.png
+SHA1-Digest: NJ93RR4XFWxpYUdYdWJb0foAyDI=
+
+Name: res/drawable-xhdpi-v4/mine_main_scrollbg.9.png
+SHA1-Digest: iXSqMrxpl+FOfA5Ji2vROcDl8UU=
+
+Name: res/drawable-xhdpi-v4/icon_activities.png
+SHA1-Digest: PiXuQ3/V1vAmE592gSZX5v8F/Fs=
+
+Name: res/drawable-xhdpi-v4/logo_qzone.png
+SHA1-Digest: tcfUq77aOBQoDGD0UI105dbRL3s=
+
+Name: res/layout/act_picview.xml
+SHA1-Digest: rJQm1LVL4uzL58s9t8pqpzk/aHc=
+
+Name: res/layout/dialog_commitreport.xml
+SHA1-Digest: mjXQleubUqsQfV1gV4hloI93MM8=
+
+Name: res/drawable-xhdpi-v4/bg_btn_sure.png
+SHA1-Digest: nLqCIVND2vJ28Z3fCGy/GDntars=
+
+Name: bin/android-volley-master.apk
+SHA1-Digest: B4+oOVq19K02E+FhNAZbJloZKXI=
+
+Name: res/drawable-xhdpi-v4/ic_step_line_done.png
+SHA1-Digest: Ic9iFMIttIgPxN7UMsKEFFv7iKs=
+
+Name: res/drawable/bg_btn_dialog_cancel.xml
+SHA1-Digest: TySUioJGdBrkC1yf2ByJqzpPJqs=
+
+Name: res/drawable-xhdpi-v4/bg_btn_dialog_datepicker_right.9.png
+SHA1-Digest: djppOeYmKV6Xvk3785FUviwH+dM=
+
+Name: res/layout/dialog_input.xml
+SHA1-Digest: o+B76MiGeUWCt8I6Niyk0rKmaoQ=
+
+Name: res/drawable-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: Q9y4BoirQdbSj14FtMJexgmWCi4=
+
+Name: res/drawable-xhdpi-v4/ic_fee_noti.png
+SHA1-Digest: xvBCp9zeXAEw6rbxnf4UOz3iZe8=
+
+Name: res/layout/mine_work_photo_item.xml
+SHA1-Digest: tjQdbuTpP4Z3SGRoFck3/wul+Vo=
+
+Name: res/drawable-xhdpi-v4/share.png
+SHA1-Digest: ANVpytgJyN+ee+l1ONljIaZjMiY=
+
+Name: res/drawable/car_pre_report_text_edge2.xml
+SHA1-Digest: IdlSX3T5p9nu13v1Qu0KZyE8dJo=
+
+Name: res/layout/dialog_update_version.xml
+SHA1-Digest: BsuLDEB2aGM6GvBoZ+FXoQGSocQ=
+
+Name: res/layout-sw800dp-v13/include_car_record.xml
+SHA1-Digest: 1cbqeWvkTZ6AXkduFAVmLGerxUk=
+
+Name: res/layout/include_car_record.xml
+SHA1-Digest: roI/k/Y42RxzBMCNV68X4gBL4qo=
+
+Name: res/layout/dialog_loading.xml
+SHA1-Digest: M52rLHvU0ht5T9IpMd4nV6zU5Kc=
+
+Name: res/drawable-xhdpi-v4/icon_mine_selected.png
+SHA1-Digest: jlbnrOXE29uWf68y+wTrNj8AqiM=
+
+Name: res/layout/include_tab_bottomview.xml
+SHA1-Digest: v8bDa+DUAVSqNBRks9CbwxMLH0g=
+
+Name: res/drawable-xhdpi-v4/bg_orders_right.9.png
+SHA1-Digest: dXsUzYZlVhr8Qbu95oRpAw/oT0A=
+
+Name: res/drawable-xhdpi-v4/skyblue_logo_qzone.png
+SHA1-Digest: BMcbBzK4BPlDZnSg+vjRpirKnUQ=
+
+Name: res/drawable-xhdpi-v4/skyblue_logo_wechatfavorite.png
+SHA1-Digest: j3hp4Cj9NVcAOa9BBYW+V09nEko=
+
+Name: res/drawable/classic_platform_corners_bg.xml
+SHA1-Digest: w8g3q9huSgY8YosXI70sLXH036I=
+
+Name: lib/armeabi/libcocklogic.so
+SHA1-Digest: vI2Mz9NWF6CaUYGlkWAG288WsPc=
+
+Name: res/drawable-xhdpi-v4/ic_mphotos.png
+SHA1-Digest: LLn29Vp0XJJMawLAwqo9adWxKZY=
+
+Name: res/drawable-xhdpi-v4/blue_point.png
+SHA1-Digest: FQdLF8wVGjyb2ECZHwx1j7hDuRY=
+
+Name: res/layout/radio_btn.xml
+SHA1-Digest: TSU1vag94U/eWoiJRD84nXJ7twI=
+
+Name: res/layout/listitem_carcheck.xml
+SHA1-Digest: qAwq/pnq/QiYQ3hjpDTx8/veOxI=
+
+Name: res/drawable-xhdpi-v4/tab_allcover_selected.png
+SHA1-Digest: mwd7WWDra45Zo6RY+RtFgNokzNY=
+
+Name: res/drawable-xhdpi-v4/ic_password.png
+SHA1-Digest: GZ3NsX4BQU8gK63xp0iRuM7B9x4=
+
+Name: res/drawable/radiobtn_tab_activities_selector.xml
+SHA1-Digest: kWuSyN1ZOEt3lG5qe8BbtyS5Nxs=
+
+Name: res/layout/act_qrcode.xml
+SHA1-Digest: cAYbQG4Scj8E0pXBd5EYTpUKyMY=
+
+Name: res/drawable-xhdpi-v4/light_blue_point.png
+SHA1-Digest: zocvd8Be5c+Qdyh/BW0VPyoFJJo=
+
+Name: res/layout/griditem_carimg.xml
+SHA1-Digest: 6Uep9bUUPJMHalMq3i5MBGoimiU=
+
+Name: res/drawable-xhdpi-v4/ic_carcheck_car.png
+SHA1-Digest: abZDYpe4OSM6dZXT0WX4nnMZsps=
+
+Name: res/drawable-xhdpi-v4/icon_version_new1.png
+SHA1-Digest: rIv1kSvkmVx+cCp43Lw9G23yGcM=
+
+Name: assets/shifu.html
+SHA1-Digest: K4C/BhoLgw5HrpNc+TfNGnJZ3lQ=
+
+Name: res/drawable-hdpi-v4/recent_chat_showleft_normal.png
+SHA1-Digest: hB1nNS661rX68X20nP6fs35aIzY=
+
+Name: res/drawable-xhdpi-v4/icon_pay_success.png
+SHA1-Digest: /gykCRu9u00SNU7hcYkewm6/byw=
+
+Name: res/layout-v11/dialog_feeinfo.xml
+SHA1-Digest: MsGaLaIcyh7gs8QHCp5v0ycYnrQ=
+
+Name: res/layout/show_car_info.xml
+SHA1-Digest: 98Dg/TiKyz08prQgkbpCdLkWVl8=
+
+Name: res/drawable-xhdpi-v4/ic_item_order_type.png
+SHA1-Digest: 6JSEd56/GZZ37s4g3JLuDIL6ZlQ=
+
+Name: lib/x86/libcocklogic.so
+SHA1-Digest: vI2Mz9NWF6CaUYGlkWAG288WsPc=
+
+Name: res/layout/fragment_detection.xml
+SHA1-Digest: Y812t8BigjDI4kQcvdsSeS1oM+E=
+
+Name: res/drawable-xhdpi-v4/ssdk_oks_shake_to_share_back.xml
+SHA1-Digest: uHJhgi1FfQrlh5OkNincSfjxQno=
+
+Name: res/drawable-hdpi-v4/qrbg.png
+SHA1-Digest: dNTWA5NYbrXrwKOtFVfrzNVL5Jg=
+
+Name: res/drawable-xhdpi-v4/loading_car_line.png
+SHA1-Digest: cbI/JXeYNoTnD8w4cJylZop6WOc=
+
+Name: res/layout-v17/mine_access_list_item.xml
+SHA1-Digest: mNRQodjtDlKm48CVIavE3BGMiHo=
+
+Name: res/drawable-xhdpi-v4/mine_image_default.png
+SHA1-Digest: Fzl0v6r1ja1tXEajyIzk3i0ji8g=
+
+Name: res/drawable-xhdpi-v4/ic_item_order_time.png
+SHA1-Digest: 2u8cafuVqYjdVPazKOPhycVTjFs=
+
+Name: res/drawable/radiobtn_tab_mine_selector.xml
+SHA1-Digest: ZPoTLiIpPuLJwWx+IWZLLtQefxE=
+
+Name: res/layout-v17/show_car_info.xml
+SHA1-Digest: +0QtPL2i8uoWsQ2zE1bQ07RUZWY=
+
+Name: res/drawable/dashline.xml
+SHA1-Digest: hsZGk4ecQRv9laIGdj+fZbjGA8M=
+
+Name: res/drawable/showleft_selector.xml
+SHA1-Digest: u7TmT6nfBKOf8cE3vqOVkTGtD8M=
+
+Name: res/drawable-xhdpi-v4/rb_level_4_normal.png
+SHA1-Digest: UCiwE7xz91vtbbSEne3uyfSeQ5k=
+
+Name: res/drawable/btn_clean_edittext.xml
+SHA1-Digest: 4sq2mYwBp6jMkqPyoWp84WIGEks=
+
+Name: res/drawable-xhdpi-v4/mine_main_setting_unselect.png
+SHA1-Digest: /Xx8fPQwuqGiV8baxpMTbIXApfI=
+
+Name: res/layout/include_step_setpwd.xml
+SHA1-Digest: NTuKasOFwQwb+TTzBQcVsYwh3KM=
+
+Name: res/drawable-xhdpi-v4/icon_carcheck_takephone.png
+SHA1-Digest: OpbX3zHX/KHJIDlvNl1KnnHZNdQ=
+
+Name: res/layout/xlistview_footer.xml
+SHA1-Digest: hHnNt5Rw+1V2h1CEzo5RfLLN+tU=
+
+Name: res/drawable-xhdpi-v4/defalut_head.png
+SHA1-Digest: dMGcad/lW92eMLTBrqEDEZU6Zfo=
+
+Name: res/layout-v17/mine_topic_list_item.xml
+SHA1-Digest: mhSoBE2o8MZDYjSzrVH15cZhEsI=
+
+Name: res/drawable-xhdpi-v4/skyblue_logo_pocket_checked.png
+SHA1-Digest: 8+uA/a75AuZf5ngwKR22gujSpp0=
+
+Name: res/drawable-xhdpi-v4/icon_mine_unselected.png
+SHA1-Digest: CyC0SUeseKrLRcGZSSyWMlsHL8I=
+
+Name: res/drawable-hdpi-v4/update_key_progress.png
+SHA1-Digest: 8siwH8oYril7IkuyiZOShLd541w=
+
+Name: res/drawable-xhdpi-v4/mine_job_icon.png
+SHA1-Digest: lwxy0Kh1G0nnOGDEn4vMXwv73O8=
+
+Name: res/drawable-xhdpi-v4/questdoit.png
+SHA1-Digest: ktMit6ORA0CiFNPNonAmbjxE+3M=
+
+Name: res/drawable/bg_btn_remark_undo.xml
+SHA1-Digest: 7wyAfpXlnY2oQTahFezDV3R5IS4=
+
+Name: bin/AndroidManifest.xml
+SHA1-Digest: NUMZNH/3+roEapGQZR8/S2ZHCYg=
+
+Name: res/drawable-xhdpi-v4/answer_selected.png
+SHA1-Digest: xFO/ThD+7PrIePBkGI+wVBs4hIc=
+
+Name: res/drawable-xhdpi-v4/ssdk_oks_yaoyiyao.png
+SHA1-Digest: dqUGQ19sqlrOmEx9v50fZTnajpI=
+
+Name: res/drawable-xhdpi-v4/auth_title_back.png
+SHA1-Digest: 8EcpaCKgMqZtOt/JhCiOEs6yIKI=
+
+Name: res/layout-v17/frame_mine.xml
+SHA1-Digest: ZMlwbX3qt1dEyT/3YyBocbcJX8U=
+
+Name: res/drawable-hdpi-v4/guide_01.png
+SHA1-Digest: 6bSDKB5q2TUW2scNdPkabGttbWE=
+
+Name: res/drawable/bg_btn_order_selector.xml
+SHA1-Digest: JWE70r1ZsSkDlD4tC1jKxs6hJQE=
+
+Name: res/drawable-xhdpi-v4/mine_job_setting.png
+SHA1-Digest: HgrrSMyLWOwNXWemSLWGhEAPRrg=
+
+Name: res/drawable-xhdpi-v4/bg_mphotos.png
+SHA1-Digest: tonfh/QMdz7f4rOO7gl2HNU2gKE=
+
+Name: lib/x86/libtnet-2.0.17.2-agoo.so
+SHA1-Digest: QFke2ehDiBtLEsJVLloo8qbsmdw=
+
+Name: res/drawable-xhdpi-v4/icon_feedback.png
+SHA1-Digest: msLGeqRqGRp3MJUcYEatp7rtETs=
+
+Name: res/drawable-xhdpi-v4/ic_camera.png
+SHA1-Digest: eF9YYGPYo99W+iEO/UHRMrwa62Y=
+
+Name: res/layout/skyblue_share_platform_list.xml
+SHA1-Digest: TJ8pJhAFMCZ1n365kZMcEm37FYo=
+
+Name: res/drawable/image_circle_bg.xml
+SHA1-Digest: IqIbPp0kO2etHP2TsSng3TDsP4Y=
+
+Name: res/drawable-xhdpi-v4/ic_step_one.png
+SHA1-Digest: qCC60FJ3h+On14T+uiOlWoBaOrQ=
+
+Name: lib/armeabi/libtnet-2.0.17.2-agoo.so
+SHA1-Digest: A0X6h3arIDThizh628xo7BspQdw=
+
+Name: res/drawable-xhdpi-v4/bg_btn_paydetail_pressed.9.png
+SHA1-Digest: eA1w3Wu2OZI7Aq1n942ahJ9xMCE=
+
+Name: res/drawable-xhdpi-v4/bg_btn_dialog_datepicker_right_pressed.9.p
+ ng
+SHA1-Digest: Z9HAqLOfayNkt0R2yBSK0NquKuc=
+
+Name: res/drawable-xhdpi-v4/report_passed.png
+SHA1-Digest: v5qk6BLAlll7oAz5nAul1r5ko9g=
+
+Name: res/drawable-xhdpi-v4/skyblue_editpage_bg.9.png
+SHA1-Digest: C4IC7g9wKico6AF2ZJeLEB1X7P8=
+
+Name: res/drawable-xhdpi-v4/bg_orders_mid_selected.9.png
+SHA1-Digest: ZzSXOSbbEuZXpGGrnlZqh13NGHY=
+
+Name: res/drawable/skyblue_platform_list_item.xml
+SHA1-Digest: CT7T8KxNHcPCUNih0qsUSBesFzk=
+
+Name: res/drawable/bg_btn_dialog_cancel_selector.xml
+SHA1-Digest: pUKQo9KnbabF+nL9fgRJ9vPpLMo=
+
+Name: res/layout/listitem_carorder.xml
+SHA1-Digest: Rwl64pX1UeEvCdl2Z+I34IhAZnY=
+
+Name: res/layout/image_detail_pager.xml
+SHA1-Digest: z1OfA8i2KbxzneXl+eiXzqcPwnI=
+
+Name: res/drawable/image_bg_selector.xml
+SHA1-Digest: K9/p8oiG4Elv9vIeEHXt5A7Obyo=
+
+Name: res/drawable/rb_carcheck_level_1_selector.xml
+SHA1-Digest: Ms8w7UlLRGb218EjGkx08FqaM0M=
+
+Name: res/drawable-xhdpi-v4/icon_activities_unselected.png
+SHA1-Digest: Xbm4Avh8+HTOoKZf3N/9//yDcIw=
+
+Name: res/drawable/rb_carcheck_level_2_selector.xml
+SHA1-Digest: Uf3hS6/b7JSJs6gRG/WAJcJpcdw=
+
+Name: res/drawable-xhdpi-v4/rb_level_4_checked.png
+SHA1-Digest: 2geE/pqLICkE/3CJ0POuqkbntls=
+
+Name: res/drawable-xhdpi-v4/bg_btn_dialog_datepicker_left_pressed.9.pn
+ g
+SHA1-Digest: PdysoqiDPpyPy4eT5GHDBlRegoQ=
+
+Name: res/drawable/bg_btn_unable_checkitem.xml
+SHA1-Digest: emjcU1ElFoDEJ42RbEhcnA0wyFo=
+
+Name: assets/css/model_select.css
+SHA1-Digest: iZAH39iSD8pPCIujQeUusGgpGAQ=
+
+Name: res/drawable-hdpi-v4/recent_chat_showleft_pressed.png
+SHA1-Digest: KO0Aqg7A2isOk7oKBssqjBypUYw=
+
+Name: res/layout/act_car_pre_report.xml
+SHA1-Digest: W5eIsZ2boI/NCi63GttLjOZaPCo=
+
+Name: res/layout/image_detail_fragment.xml
+SHA1-Digest: IT6+f2vOJ8h4CUrUDOIeFOQN9U4=
+
+Name: res/drawable-xhdpi-v4/bg_btn_commit_pressed.9.png
+SHA1-Digest: 0qWXOQG913HsQyuKL3zCCkmr1q0=
+
+Name: res/drawable-xhdpi-v4/mine_main_profession.png
+SHA1-Digest: qdl327zYv60vwuWFdQfuIJFA8I4=
+
+Name: res/drawable-xhdpi-v4/list_divider.9.png
+SHA1-Digest: MycQnvg9ufLlInE34JqAyisPX0M=
+
+Name: res/drawable-xhdpi-v4/mine_location.png
+SHA1-Digest: LnO+5Ts2A/IsVUEIrnL/fwwINUc=
+
+Name: res/drawable-xhdpi-v4/ssdk_auth_title_back.png
+SHA1-Digest: KcOU9zRA4LnWnGrzTb4Jvm+VpMQ=
+
+Name: res/drawable-xhdpi-v4/mine_main_workscount.png
+SHA1-Digest: PjaRdxaoN1gysI99qEC6MoPsc78=
+
+Name: res/drawable-xhdpi-v4/ic_carcheck_outdate.png
+SHA1-Digest: mnqVtROR8HFiHgdL1REK0OAfWqk=
+
+Name: res/drawable/skyblue_platform_list_selector.xml
+SHA1-Digest: 4PD+RPCKW2jyADDxZ++BbFBY5as=
+
+Name: res/drawable/bg_btn_dialog_datepicker_right_selector.xml
+SHA1-Digest: fTLyH5uVDtoxZe+He4adbppDrSE=
+
+Name: res/drawable-xhdpi-v4/rb_level_1_normal.png
+SHA1-Digest: AqXbCEy0ZqKouNsJkyfENJLZ2yU=
+
+Name: res/layout-v17/answer_popupwindow.xml
+SHA1-Digest: XV1c2MhWJijn930FxVHlrzBUElg=
+
+Name: res/drawable-xhdpi-v4/bg_pay_up.png
+SHA1-Digest: nFci+CGZQjEO0Ns88arw++PnENY=
+
+Name: res/layout/include_header.xml
+SHA1-Digest: F/2yo9EgJ4XWAu+rFTiivSBgXXY=
+
+Name: res/drawable-xhdpi-v4/btn_close.png
+SHA1-Digest: 0vj6ehMPsKu0Qdr2AQiU3F7hghs=
+
+Name: res/drawable-hdpi-v4/qrcode.jpeg
+SHA1-Digest: IpGgHHCK8EMQLLgQ75DY1BznBqE=
+
+Name: assets/css/selectpick.css
+SHA1-Digest: VsCuqCvJwOGq00k3tvDz9tQgrxA=
+
+Name: res/drawable-xhdpi-v4/answer.png
+SHA1-Digest: xFO/ThD+7PrIePBkGI+wVBs4hIc=
+
+Name: res/drawable-xhdpi-v4/skyblue_logo_qq_checked.png
+SHA1-Digest: u09N4J8C72y3OY3OPkdHKgBzYTY=
+
+Name: res/layout-v13/act_car_pre_report.xml
+SHA1-Digest: ijms3dmXXgWnY6njzKQSB786pjA=
+
+Name: res/layout/include_car_imgs.xml
+SHA1-Digest: A//tdKVmf6oREVERFhYoWhfHhw4=
+
+Name: res/drawable-xhdpi-v4/auth_follow_cb_unc.png
+SHA1-Digest: Du78zAJA6b0nLhl6JhpMJyA3Qwo=
+
+Name: res/layout/mine_basic_data.xml
+SHA1-Digest: BvAyeXnW7XrRHrRXN2WueSYi2JA=
+
+Name: assets/showcarinfo.html
+SHA1-Digest: 4aNr9cKO/fUd76t0u6MyxmqV9ac=
+
+Name: res/drawable-xhdpi-v4/mine_main_worksort.png
+SHA1-Digest: Hnc4+y3HDVhI0oaNnLy1GXNNOUI=
+
+Name: res/drawable-xhdpi-v4/skyblue_logo_wechatfavorite_checked.png
+SHA1-Digest: sTaDtp7viaocnWq+GScKvY5Ylw0=
+
+Name: classes.dex
+SHA1-Digest: QLPHaTDjfZ9f247A6+xhOW6RQ2Q=
+
+Name: assets/css/bootstrap.min.css
+SHA1-Digest: V63to7Ao8eF1HixLex+Bp46/0hw=
+

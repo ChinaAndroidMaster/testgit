@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/page_layout_switch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/str_carcheck_doornot"
+            android:textColor="@color/color_text_black"
+            android:textSize="16sp" >
+        </TextView>
+
+        <com.creditease.checkcars.ui.widget.SlipButton
+            android:id="@+id/page_slipButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="9dp" />
+    </RelativeLayout>
+
+    <com.creditease.checkcars.ui.widget.CEHorizontalListView
+        android:id="@+id/page_hlistv_imgs"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/transparent"
+        android:focusable="false"
+        android:padding="5dp"
+        android:visibility="visible" />
+
+    <ListView
+        android:id="@+id/page_listv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:divider="@color/color_bg_orders"
+        android:padding="5dp" >
+    </ListView>
+
+</LinearLayout>

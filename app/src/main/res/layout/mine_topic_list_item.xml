@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:background="@color/white">
+    
+    <ImageView
+        android:id="@+id/arrowstopic"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:contentDescription="@null"
+        android:src="@drawable/mine_arrow_right" 
+        />
+
+    <RelativeLayout
+        android:id="@+id/mine_topic_item_topicLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/arrowstopic"
+        android:layout_toStartOf="@+id/arrowstopic"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/mine_topic_item_topicicon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@null"
+            android:src="@drawable/mine_image_default" />
+
+        <TextView
+            android:id="@+id/mine_topic_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/mine_topic_item_topicicon"
+            android:layout_toRightOf="@+id/mine_topic_item_topicicon"
+            android:singleLine="true"
+            android:textColor="@color/color_mine_name"
+            android:textSize="16sp" />
+
+        <RatingBar
+            android:id="@+id/mine_topic_item_ratingbar"
+            style="@style/topicRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mine_topic_item_name"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/mine_topic_item_topicicon"
+            android:layout_toRightOf="@+id/mine_topic_item_topicicon"
+            android:numStars="5"
+            android:rating="5" />
+
+        <TextView
+            android:id="@+id/mine_topic_item_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mine_topic_item_ratingbar"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/mine_topic_item_topicicon"
+            android:layout_toRightOf="@+id/mine_topic_item_topicicon"
+            android:singleLine="true"
+            android:textColor="@color/color_mine_profession"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/mine_topic_item_datetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/mine_topic_item_name"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignRight="@+id/mine_topic_item_name"
+            android:singleLine="true"
+            android:textColor="@color/color_mine_image_bg"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <!-- 分割线 -->
+
+    <TextView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/mine_topic_item_topicLayout"
+        android:background="@color/color_mine_divider" />
+
+</RelativeLayout>

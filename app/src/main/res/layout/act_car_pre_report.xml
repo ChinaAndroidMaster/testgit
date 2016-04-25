@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/head"
+        layout="@layout/include_header" />
+
+    <LinearLayout
+        android:id="@+id/car_pre_report_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/head"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <com.creditease.checkcars.ui.widget.DrawableCenterTextView 
+            android:id="@+id/car_pre_report_addreport"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:layout_marginTop="20dp"
+            android:text="@string/str_car_pre_start"
+            android:textColor="@color/color_pre_btn"
+            android:textSize="20sp"
+            android:gravity="start|center_vertical"
+            android:drawableLeft="@drawable/car_pre_start_icon"
+            android:drawableStart="@drawable/car_pre_start_icon"
+            android:drawablePadding="5dp"
+            />
+
+        <com.creditease.checkcars.ui.widget.XListView
+            android:id="@+id/car_pre_report_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_marginTop="20dp"
+            android:divider="@null"
+            android:dividerHeight="0dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/car_pre_report_empty_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/head"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/car_pre_report_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/car_pre_empty" />
+
+        <TextView
+            android:id="@+id/car_pre_report_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/car_pre_report_text_edge"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            android:text="@string/str_car_pre_start"
+            android:textColor="@color/color_text_black_gray"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>

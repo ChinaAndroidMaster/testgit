@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/step_phone_tv_phonenum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:background="#00000000"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="@color/text_color"
+        android:textSize="15sp"
+        android:visibility="invisible" />
+
+    <com.creditease.checkcars.ui.widget.FixedViewFlipper
+        android:id="@+id/step_phone_viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:flipInterval="1000"
+        android:persistentDrawingCache="animation" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48.0dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/bg_input"
+            android:paddingLeft="15.5dp"
+            android:paddingRight="15.5dp" >
+
+            <com.creditease.checkcars.ui.widget.CleanableEditText
+                android:id="@+id/step_phone_et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:digits="0123456789"
+                android:drawableLeft="@drawable/ic_phone_small"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/btn_clean_edittext"
+                android:hint="@string/phonenumb_regist"
+                android:inputType="phone"
+                android:maxLength="13"
+                android:singleLine="true"
+                android:textColor="@color/text_color"
+                android:textColorHint="@color/text_hint_color"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48.0dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_input"
+            android:paddingLeft="15.5dp"
+            android:paddingRight="15.5dp" >
+
+            <EditText
+                android:id="@+id/et_verify_code"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:background="#00000000"
+                android:drawableLeft="@drawable/ic_email_msg"
+                android:drawablePadding="10dp"
+                android:hint="@string/verify_code"
+                android:imeActionLabel="下一步"
+                android:inputType="number"
+                android:maxLength="6"
+                android:singleLine="true"
+                android:textColor="@color/text_color"
+                android:textColorHint="@color/text_hint_color"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/step_phone_btn_getVerify"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="right"
+                android:background="#00000000"
+                android:text="@string/regetVerify"
+                android:textColor="#1f93e5"
+                android:textSize="15.0sp" />
+        </RelativeLayout>
+    </com.creditease.checkcars.ui.widget.FixedViewFlipper>
+
+</LinearLayout>

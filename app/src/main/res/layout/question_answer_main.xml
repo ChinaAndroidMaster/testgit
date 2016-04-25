@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/color_mine_interval"
+    >
+    <include android:id="@+id/headerLayout" layout="@layout/include_header"/>
+	 <com.creditease.checkcars.ui.widget.XListView
+        android:id="@+id/question_answer_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/headerLayout"
+        android:background="@color/white"
+        android:divider="@color/color_mine_interval"
+        android:dividerHeight="0px"
+        android:fadingEdge="none"
+        android:headerDividersEnabled="false"
+        android:layout_alignParentBottom="true"
+        />
+    <TextView
+        android:id="@+id/question_answer_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="@string/questtion_main_empty"
+        android:textColor="@color/color_text_gray"
+        android:textSize="20sp"
+        android:visibility="gone" />
+</RelativeLayout>

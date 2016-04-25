@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_color">#f4f4f4</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="black_alp50">#40333333</color>
+    <color name="text_hint_color">#b3b3b3</color>
+    <color name="text_color">#626262</color>
+    <color name="link_color">#ff4abad7</color>
+    <color name="color_divier">#dddddd</color>
+    <color name="half_transparent">#e0000000</color>
+    <color name="dialog_half_transparent">#50000000</color>
+    <!-- 字体 -->
+    <color name="color_text_black">#333333</color>
+    <color name="color_text_black_gray">#666666</color>
+    <color name="color_text_black_gray_88">#888888</color>
+    <color name="color_text_gray">#aaaaaa</color>
+    <color name="color_text_gray_dd">#dddddd</color>
+    <color name="color_text_item_order">#66beff</color>
+      <color name="color_text_ec7018">#ec7018</color>
+    <!-- 背景 -->
+    <color name="color_bg_title">#ed6f16</color>
+    <color name="color_bg_btn_unselected">#979797</color>
+    <color name="color_bg_btn_selected">#0e6eb8</color>
+    <color name="color_bg_orders">#e2e2e2</color>
+
+    <!-- 检车 -->
+    <color name="color_bg_item_group">#e25c13</color>
+    <color name="color_bg_btn_next_able">#ed6f16</color>
+    <color name="color_bg_btn_next_unable">#aaaaaa</color>
+    <color name="color_bg_btn_next_pay">#6bb624</color>
+    <color name="color_text_selected">#ec7016</color>
+      <color name="color_bg_refusetv">#fff9eb</color>
+
+    <!-- 订单 -->
+    <color name="color_orders_bg_btn">#ff9c50</color>
+    <color name="color_orders_bg_btn_pay">#56b6ff</color>
+
+    <!-- 我 -->
+    <color name="color_mine_title_bg">#ed6f16</color>
+    <color name="color_mine_divider">#dddddd</color>
+    <color name="color_mine_name">#333333</color>
+    <color name="color_mine_profession">#888888</color>
+    <color name="color_mine_interval">#f4f4f4</color>
+    <color name="color_mine_margin">#ec7016</color>
+    <color name="color_mine_word">#aaaaaa</color>
+    <color name="color_mine_image_bg">#bbbbbb</color>
+	<!-- 车辆基本信息 -->
+	<color name="color_carinfo_vin_bg">#f6f6f6</color>
+	<color name="color_query_car_bg">#ffa54d</color>
+	<color name="color_query_item">#555555</color>
+	<color name="color_pre_btn">#25abff</color>
+	
+</resources>

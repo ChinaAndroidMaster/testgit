@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ProjectName" default="release" basedir=".">
+    <!-- ANT环境变量 -->
+    <property environment="env" />
+    <!-- 应用名称 -->
+    <property name="appName" value="${ant.project.name}" />
+    <property name="version" value="1.0.0.0" />
+    <!-- 自定义目录-->
+    <property name="develope-dir" value="${env.DEVELOPE_DIRECTORY_MOBILE}" />
+
+    <!-- ANDROID SDK 目录 -->
+    <property name="sdk-folder" value="D:/software/Java/adt/sdk" />
+    <!-- SDK指定平台目录 ,指定相应的平台-->
+    <property name="sdk-platform-folder" value="${sdk-folder}/platforms/android-19" />
+    <!-- SDK中tools目录 -->
+    <property name="sdk-tools" value="${sdk-folder}/tools" />
+    <!-- SDK指定平台中tools目录 -->
+    <property name="sdk-platform-tools" value="${sdk-folder}/build-tools/android-4.4" />
+
+    <!-- 使用到的命令(当前系统为windows,如果系统为linux,可将.bat文件替换成相对应的命令) -->
+    <property name="aapt" value="${sdk-platform-tools}/aapt" />
+    <property name="zipalign" value="${sdk-tools}/zipalign" />
+    <property name="aidl" value="${sdk-platform-tools}/aidl" />
+    <property name="dx" value="${sdk-platform-tools}/dx" />
+    <property name="apkbuilder" value="${sdk-tools}/apkbuilder" />
+    <property name="jarsigner" value="${env.JAVA_HOME}/bin/jarsigner" />
+
+    <!-- 编译需要的jar  -->
+    <property name="android-jar" value="${sdk-platform-folder}/android.jar" />
+
+    <!-- 生成R文件的相对目录 -->
+    <property name="outdir-gen" value="gen" />
+    <!-- 编译后的文件放置目录 -->
+    <property name="outdir-bin" value="bin" />
+
+    <!-- 清单文件 -->
+    <property name="manifest-xml" value="${basedir}/AndroidManifest.xml" />
+    <!-- 源文件目录 -->
+    <property name="resource-dir" value="res" />
+    <property name="asset-dir" value="assets" />
+
+    <!-- 资源文件目录 -->
+    <property name="drawable-dir" value="${resource-dir}/drawable" />
+    <property name="drawable-hdpi-dir" value="${resource-dir}/drawable-hdpi"/>
+    <property name="drawable-ldpi-dir" value="${resource-dir}/drawable-ldpi"/>
+    <property name="drawable-mdpi-dir" value="${resource-dir}/drawable-mdpi"/>
+    <property name="drawable-zh-rCN-dir" value="${resource-dir}/drawable-zh-rCN"/>
+
+    <!-- java源文件目录 -->
+    <property name="srcdir" value="src" />
+    <property name="srcdir-ospath" value="${basedir}/${srcdir}" />
+
+    <!-- 动态库so文件目录 -->
+    <property name="library" value="${basedir}/libs" />
+    <!-- 第三方library -->
+    <property name="library-dir" value="/home/tom/tool/android-sdk-linux/extras/android/support/v7/gridlayout" />
+
+
+    <!-- 外部类库所在目录 -->
+    <property name="external-lib" value="lib" />
+    <property name="external-lib-ospath" value="${basedir}/${external-lib}" />
+
+    <!-- 生成class目录 -->
+    <property name="outdir-classes" value="${outdir-bin}/classes" />
+    <property name="outdir-classes-ospath" value="${basedir}/${outdir-classes}" />
+
+    <!-- classes.dex相关变量 -->
+    <property name="dex-file" value="classes.dex" />
+    <property name="dex-path" value="${outdir-bin}/${dex-file}" />
+    <property name="dex-ospath" value="${basedir}/${dex-path}" />
+
+    <!-- 经过aapt生成的资源包文件 -->
+    <property name="resources-package" value="${outdir-bin}/resources.ap_" />
+    <property name="resources-package-ospath" value="${basedir}/${resources-package}" />
+
+    <!-- 未认证apk包 -->
+    <property name="out-unsigned-package" value="${outdir-bin}/${appName}-unsigned.apk" />
+    <property name="out-unsigned-package-ospath" value="${basedir}/${out-unsigned-package}" />
+
+    <!-- 证书文件 -->
+    <property name="keystore-file" value="${basedir}/xxx.keystore" />
+
+    <!-- 已认证apk包 -->
+    <property name="out-signed-package" value="${outdir-bin}/${appName}.apk" />
+    <property name="out-signed-package-ospath" value="${basedir}/${out-signed-package}" />
+
+    <!-- 已优化apk包 -->
+    <property name="zipalign-signed-package" value="${outdir-bin}/${appName}${version}_release.apk" />
+
+    <!-- 初始化工作 -->
+    <target name="init">
+        <echo>Initializing all output directories...</echo>
+        <delete dir="${outdir-bin}" />
+        <delete dir="${outdir-gen}" />
+        <mkdir dir="${outdir-gen}" />
+        <mkdir dir="${outdir-bin}" />
+        <mkdir dir="${outdir-classes}" />
+    </target>
+
+    <!-- 根据工程中的资源文件生成R.java文件 -->
+    <target name="GenRJAVA" depends="init">
+        <echo>Generating R.java / Manifest.java from the resources...</echo>
+        <exec executable="${aapt}" failonerror="true">
+            <arg value="package" /><!-- package表示打包-->
+            <arg value="-m" /><!--m,J,gen表示创建包名的目录和R.java到gen目录下 -->
+            <arg value="-J" />
+            <arg value="${outdir-gen}" />
+            <arg value="-M" /><!-- M指定AndroidManifest.xml文件-->
+            <arg value="${manifest-xml}" />
+            <arg value="-S" /><!-- S指定res目录，生成对应的ID，可多个-->
+            <arg value="${resource-dir}" />
+            <arg value="-S" />
+            <arg value="${library-dir}/res" /><!-- 注意点:同时需要调用Library的res-->
+            <arg value="-I" /><!-- I指定android包的位置-->
+            <arg value="${android-jar}" />
+            <arg value="--auto-add-overlay" /> <!-- 这个重要，覆盖资源，不然报错-->
+        </exec>
+        <!-- 根据库应用中的资源文件生成R.java文件 -->
+        <exec executable="${aapt}" failonerror="true">
+            <arg value="package" />
+            <arg value="-m" />
+            <arg value="--auto-add-overlay" />
+            <arg value="-J" />
+            <arg value="${outdir-gen}" />
+            <arg value="-M" />
+            <arg value="${library-dir}/AndroidManifest.xml" /><!-- 库应用的manifest-->
+            <arg value="-S" />
+            <arg value="${resource-dir}" />
+            <arg value="-S" />
+            <arg value="${library-dir}/res" />
+            <arg value="-I" />
+            <arg value="${android-jar}" />
+        </exec>
+    </target>
+    <!-- 将工程及库应用中的java源文件编译成class文件 -->
+    <target name="compile" depends="GenRJAVA">
+        <echo>Compiling java source code...</echo>
+        <javac encoding="UTF-8" target="1.6" destdir="${outdir-classes}" bootclasspath="${android-jar}">
+            <src path="${library-dir}/src" /><!-- 库应用源码 -->
+            <src path="${basedir}/src" /><!-- 工程源码-->
+            <src path="${outdir-gen}" /><!-- 生成的class文件全部保存到bin/classes目录下 -->
+            <classpath>
+                <fileset dir="${library}" includes="*.jar" /><!-- 第三方jar包需要引用，用于辅助编译 -->
+            </classpath>
+        </javac>
+    </target>
+    <!-- 将.class文件转化成.dex文件 -->
+   <target name="dex" depends="compile">
+        <echo>Converting compiled files and external libraries into ${outdir-dx}test.dex...</echo>
+        <exec executable="${dx}" failonerror="true">
+            <arg value="--dex" />
+            <arg value="--output=${dex-ospath}" /><!-- 输出 -->
+            <arg path="${outdir-classes}" /><!-- classes文件位置 -->
+            <arg value="${library}" /> <!-- 把libs下所有jar打包 -->
+        </exec>
+    </target>
+    <!-- 将资源文件放进输出目录 -->
+    <target name="package-res-and-assets">
+        <echo>Packaging resources and assets...</echo>
+        <exec executable="${aapt}" failonerror="true">
+            <arg value="package" />
+            <arg value="-f" /><!-- 资源覆盖重写 -->
+            <arg value="-M" />
+            <arg value="${manifest-xml}" />
+            <arg value="-S" />
+            <arg value="${resource-dir}" />
+            <arg value="-S"/>
+            <arg value="${library-dir}/res"/>
+            <arg value="-A" /><!-- asset目录也打包 -->
+            <arg value="${asset-dir}" />
+            <arg value="-I" />
+            <arg value="${android-jar}" />
+            <arg value="-F" /><!-- 输出资源压缩包 -->
+            <arg value="${resources-package}" />
+            <arg value="--auto-add-overlay" />
+        </exec>
+    </target>
+
+    <!-- 打包成未签证的apk -->
+    <target name="package" depends="dex,package-res-and-assets">
+        <echo>Packaging unsigned apk for release...</echo>
+        <exec executable="${apkbuilder}" >
+            <arg value="${out-unsigned-package-ospath}" /><!-- 输出 -->
+            <arg value="-u" /><!-- u指创建未签名的包-->
+            <arg value="-z" /> <!-- 资源压缩包 -->
+            <arg value="${resources-package-ospath}" />
+            <arg value="-f" /><!-- dex文件 -->
+            <arg value="${dex-ospath}" />
+        </exec>
+
+        <echo>It will need to be signed with jarsigner before being published.</echo>
+    </target>
+
+    <!-- 对apk进行签证 -->
+    <target name="jarsigner" depends="package">
+        <echo>Packaging signed apk for release...</echo>
+        <exec executable="${jarsigner}" failonerror="true">
+            <arg value="-keystore" />
+            <arg value="${keystore-file}" />
+            <arg value="-storepass" />
+            <arg value="xxx" /><!-- 验证密钥完整性的口令，创建时建立的 -->
+            <arg value="-keypass" />
+            <arg value="xxx" /> <!-- 专用密钥的口令，就是key密码 -->
+            <arg value="-signedjar" />
+            <arg value="${out-signed-package-ospath}" /><!-- 输出 -->
+            <arg value="${out-unsigned-package-ospath}" /><!-- 未签名的apk -->
+            <!-- 不要忘了证书的别名 -->
+            <arg value="xxx.keystore" />
+        </exec>
+    </target>
+
+    <!-- 优化 -->
+    <target name="optimize-app" depends="jarsigner">
+      <echo> optimizing the application...</echo>
+      <exec executable="${zipalign}">
+        <arg value="-v" />
+        <arg value="-f" />
+        <arg value="4" />
+        <arg value="${out-signed-package-ospath}" />
+        <arg value="${zipalign-signed-package}" />
+     </exec>
+    </target>
+
+    <!-- 发布 -->
+    <target name="release" depends="optimize-app">
+        <!-- 删除未签证apk -->
+        <delete file="${out-unsigned-package-ospath}" />
+        <echo>APK is released. path:${out-signed-package-ospath}</echo>
+    </target>
+</project>

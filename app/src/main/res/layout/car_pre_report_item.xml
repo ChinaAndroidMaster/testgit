@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:background="@color/white">
+    
+    <ImageView
+        android:id="@+id/car_pre_report_item_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@null"
+        android:src="@drawable/default_carimg" 
+        android:scaleType="fitXY"
+        android:padding="10dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/car_pre_report_item_midLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/car_pre_report_item_icon"
+        android:layout_toRightOf="@+id/car_pre_report_item_icon"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/car_pre_report_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:maxWidth="200dp"
+            android:textColor="@color/color_text_black"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/car_pre_report_item_vin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:singleLine="true"
+            android:textColor="@color/color_mine_profession"
+            android:textSize="14sp" />
+        
+        <TextView
+            android:id="@+id/car_pre_report_item_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:singleLine="true"
+            android:textColor="@color/color_mine_profession"
+            android:textSize="14sp" />
+    </LinearLayout>
+    
+    <TextView
+            android:id="@+id/car_pre_report_item_exam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="@color/color_pre_btn"
+            android:textSize="12sp" 
+            android:gravity="center"
+            android:background="@drawable/car_pre_report_text_edge2"
+            android:text="@string/report_review"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            />
+
+    <!-- 分割线 -->
+
+    <TextView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/car_pre_report_item_midLayout"
+        android:background="@color/color_mine_divider" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        />
+
+</RelativeLayout>

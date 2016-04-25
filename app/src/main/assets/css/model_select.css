@@ -1,0 +1,199 @@
+ul{
+  padding: 0;
+}
+
+div.modal{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    top: 0;
+    bottom: inherit;
+    left: inherit;
+    right: inherit;
+    opacity: 1;
+    overflow:auto;
+}
+
+.C_modal{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #e8ebf1;
+    top: 0;
+    opacity: 1;
+}
+
+.modal h4{
+    font-weight: normal;
+    color: #000;
+    text-align: center;
+    width: 72%;
+    float: left;
+}
+
+.C_modal h4{
+    font-weight: normal;
+    color: #000;
+    text-align: center;
+    width: 72%;
+    float: left;
+}
+
+
+.modal-back{
+    width: 14%;
+    float: left;
+    padding-left: 10px;
+    color: #f60;
+    font-size: 14px;
+}
+.modal-head{
+    height: 35px;
+    background: #fff;
+    line-height: 35px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+div.modal-content{
+    background: #fff;
+    border-radius: 0;
+    box-shadow: none;
+    position: static;
+    -webkit-box-shadow:none;
+}
+
+.C_modal-content{
+    background: #fff;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-box-shadow:none;
+}
+
+ul.letter li,ul.brand_list li,ul.series_list li,ul.model_list li{
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+ul.letter li{
+    width: 14%;
+}
+ul.brand_list li{
+    width: 33%;
+}
+ul.series_list li,ul.model_list li{
+    width: 100%;
+    text-align: left;
+    padding: 10px 10px;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul.model_list .detail_model {
+    display: inline-block;
+    width: 70%;
+    margin-right: 1em;
+    line-height: 20px;
+    color: #000;
+}
+
+ul.model_list .model_price {
+    display: inline-block;
+    margin-left: 6%;
+    font-size: .8em;
+    color: #f60;
+}
+
+ul.series_list li a, ul.model_list li a {
+    line-height: 20px;
+    color: #000;
+}
+
+ul.letter li a{
+    height: 25px;
+    line-height: 25px;
+    display: inline-block;
+    width: 25px;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+#chooseModel, #chooseCity{
+    position: relative;
+    width: 100%;
+    white-space: nowrap !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    line-height: 30px;
+    color: #000;
+    margin-top: 10px;
+}
+
+ul.brand_list li a{
+    height: 26px;
+    display: inline-block;
+    width: 106px;
+    color: #000;
+}
+
+.modal-content-title{
+    font-size: 14px;
+    background: #f5f5fa;
+    display: block;
+    line-height: 30px;
+    padding-left: 10px;
+    margin-bottom: 9px;
+}
+
+.clearfix{
+    clear: both;
+    zoom: 1;
+}
+
+.letters-bar {
+    top: 30px;
+    width: 10%;
+    right: 10px;
+}
+.pf {
+    position: fixed;
+}
+
+@media screen and (min-width: 600px) {
+    .letters-bar ul {
+        display:none
+    }
+}
+
+.letters-bar ul {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.tac {
+    text-align: center;
+}
+.pure-g {
+    letter-spacing: -.31em;
+    text-rendering: optimizespeed;
+    font-family: FreeSans,Arimo,"Droid Sans",Helvetica,Arial,sans-serif;
+    -webkit-flex-flow: row wrap;
+    display: -ms-flexbox;
+    -ms-flex-flow: row wrap;
+}
+
+ol, ul {
+    list-style-type: none;
+}
+
+.letters-bar li {
+    height: 4.5%;
+}

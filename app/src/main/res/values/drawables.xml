@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="draw_temp" type="drawable">#fff4f4f4</item>
+
+    <drawable name="list_backgroud_normal">@color/white</drawable>
+    <drawable name="transparent">@color/transparent</drawable>
+    <drawable name="list_backgroud_pressed">#757575</drawable>
+    <drawable name="title_color">#ff505050</drawable>
+    <drawable name="title_color_pressed">#ffff6c00</drawable>
+
+</resources>

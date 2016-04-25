@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ques_answer_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <!-- 分割线 -->
+    <TextView
+        android:id="@+id/topdivider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/color_mine_divider" />
+    <!-- 红点和问题行 -->
+
+    <RelativeLayout
+        android:id="@+id/firstLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topdivider"
+        android:layout_margin="10dp" >
+
+        <ImageView
+            android:id="@+id/question_answer_item_icon"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_centerVertical="true"
+            android:contentDescription="@null"
+            android:src="@drawable/questdoit"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/question_answer_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/question_answer_item_icon"
+            android:layout_toRightOf="@id/question_answer_item_icon"
+            android:textColor="@color/color_mine_name"
+            android:textSize="16sp" />
+    </RelativeLayout>
+    <!-- 图片布局 -->
+
+    <com.creditease.checkcars.ui.widget.NoScrollGridView
+        android:id="@+id/question_answer_item_gridView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstLayout"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginStart="20dp"
+        android:horizontalSpacing="4dp"
+        android:numColumns="4"
+        android:scrollbars="none"
+        android:verticalSpacing="5dp"
+        android:visibility="gone" />
+    <!-- 问题发布日期和回复按钮 -->
+
+    <RelativeLayout
+        android:id="@+id/secondLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question_answer_item_gridView"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="20dp" >
+
+        <TextView
+            android:id="@+id/question_answer_item_datetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:textColor="@color/color_mine_profession"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/question_answer_item_answerButton"
+            android:layout_width="84dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/image_bg_selector2"
+            android:paddingLeft="20dp"
+            android:paddingStart="20dp"
+            android:paddingBottom="20dp"
+            android:contentDescription="@null" />
+    </RelativeLayout>
+    <!-- 回复列表 -->
+
+    <com.creditease.checkcars.ui.widget.NoScrollListView
+        android:id="@+id/question_answer_item_noscorlllistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondLayout"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="20dp"
+        android:divider="@null"
+        android:scrollbars="none"
+        android:visibility="gone" />
+    <!-- 分割线 -->
+
+    <TextView
+        android:id="@+id/bottomdivider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/question_answer_item_noscorlllistview"
+        android:background="@color/color_mine_divider" />
+    <!-- 分割线 -->
+
+    <TextView
+        android:id="@+id/intervaldivider"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_below="@id/bottomdivider"
+        android:background="@color/color_mine_interval" />
+
+</RelativeLayout>

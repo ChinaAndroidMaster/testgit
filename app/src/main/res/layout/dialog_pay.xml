@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="30dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fee_service"
+            android:textColor="@color/color_text_black_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/dialog_pay_fee_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/fee_service"
+            android:textColor="@color/color_text_selected"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/ic_fee_noti"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:text="@string/fee_noti"
+        android:textColor="@color/color_text_black_gray"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="21dip"
+        android:paddingLeft="6dip"
+        android:paddingRight="6dip"
+        android:paddingTop="0dip" >
+
+        <Button
+            android:id="@+id/dialog_pay_btn_true"
+            android:layout_width="0.0dip"
+            android:layout_height="42.0dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/bg_btn_dialog_ok"
+            android:text="@string/str_dialog_btn_sure"
+            android:textColor="@color/white"
+            android:textSize="16.0sp" />
+
+        <Button
+            android:id="@+id/dialog_pay_btn_cancel"
+            android:layout_width="0dip"
+            android:layout_height="42.0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_btn_dialog_cancel"
+            android:text="@string/str_dialog_btn_cancel"
+            android:textColor="@color/white"
+            android:textSize="16.0sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">师傅看车</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="net_error" translatable="false">您的网络不太顺畅哦~</string>
+    <string name="text_report_add_loading" translatable="false">正在加载&#8230;</string>
+    <string name="text_report_commit_loading" translatable="false">正在提交&#8230;</string>
+    <string name="text_order_uploading" translatable="false">正在提交&#8230;</string>
+
+    <!-- tabs -->
+    <string name="tab_orders" translatable="false">订单</string>
+    <string name="tab_activities" translatable="false">活动</string>
+    <string name="tab_mine" translatable="false">我</string>
+    <string name="tab_qa" translatable="false">问答</string>
+
+    <!-- xlistview -->
+    <string name="xlistview_header_hint_normal" translatable="false">下拉刷新</string>
+    <string name="xlistview_header_hint_ready" translatable="false">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading" translatable="false">正在加载&#8230;</string>
+    <string name="xlistview_header_last_time" translatable="false">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal" translatable="false">点击获取更多流水</string>
+    <string name="xlistview_footer_hint_ready" translatable="false">松开载入更多</string>
+    <!-- 登陆 -->
+    <string name="str_login" translatable="false">登  录 </string>
+    <string name="str_phone" translatable="false">请输入手机号 </string>
+    <string name="str_pwd" translatable="false">请输入密码</string>
+    <string name="str_toregist" translatable="false">去注册</string>
+    <string name="str_login_failed" translatable="false">登录失败</string>
+    <string name="str_login_success" translatable="false">登录成功</string>
+
+    <!-- 检车订单 -->
+
+    <string name="str_carorders_title" translatable="false">订单</string>
+    <string name="str_carorders_info_no_orders" translatable="false">暂无订单</string>
+    <string name="str_carorders_btn_assign_p" translatable="false">已回访</string>
+    <string name="str_carorders_btn_evaluate" translatable="false">评估</string>
+    <string name="str_carorders_btn_finish" translatable="false">完成服务</string>
+    <string name="str_carorders_btn_finished" translatable="false">待付</string>
+    <string name="str_carorders_btn_payed" translatable="false">已付</string>
+    <string name="str_carorders_btn_canceled" translatable="false">已取消</string>
+    <string name="str_carorders_btn_continue" translatable="false">继续评估</string>
+    <string name="passed_and_check" translatable="false">审核通过，查看报告</string>
+    <string name="unverify_and_check" translatable="false">尚未审核，查看报告</string>
+    <string name="add_another_report" translatable="false">是否检测其他车辆?</string>
+    <string name="add_report" translatable="false">是否开始检测车辆?</string>
+    <string name="finish_order_ornot" translatable="false">是否确认完成本次检车服务?</string>
+    <string name="str_carorder_type_0" translatable="false">二手车检测</string>
+    <string name="str_carorder_type_1" translatable="false">夏日安全套餐</string>
+    <string name="str_carorder_new_order" translatable="false">新的订单</string>
+	<string name="car_ordernum_title" translatable="false">订单号：</string>
+	<string name="car_search_order_hint" translatable="false">请输入订单号&#047;手机号&#047;姓名</string>
+	<string name="car_search_order_cancel" translatable="false">取消</string>
+	<string name="car_search_order_empty" translatable="false">没有匹配的订单</string>
+	<string name="car_search_order_nomore" translatable="false">没有更多数据了!</string>
+    <!-- 支付详情 -->
+    <string name="str_dialog_btn_close" translatable="false">关闭</string>
+    <string name="str_dialog_payinfo_title" translatable="false">去收现金</string>
+    <string name="str_dialog_payinfo_check_num" translatable="false">看 车 数 量 (辆)    :</string>
+    <string name="str_dialog_payinfo_used_coupon" translatable="false">使用优惠券(张)  :</string>
+    <string name="str_dialog_payinfo_need_pay" translatable="false">需 要 收 取 (元)   :</string>
+    <string name="str_dialog_payinfo_finish_pay" translatable="false">确认收款</string>
+    <string name="str_carcheck_photos" translatable="false">必拍照</string>
+    <!-- 车录入 -->
+    <string name="str_carrecord_please_input" translatable="false">请填写验车信息</string>
+    <string name="str_carrecord_car" translatable="false">品牌/型号</string>
+    <string name="str_carrecord_year" translatable="false">登记日期</string>
+    <string name="str_carrecord_mileage" translatable="false">里程数</string>
+    <string name="str_carrecord_productdate" translatable="false">出厂日期</string>
+    <string name="str_carrecord_vin" translatable="false">VIN号</string>
+    <string name="str_carrecord_btn_startcheck" translatable="false">开始验车</string>
+    <string name="str_carrecord_btn_cancel" translatable="false">取消</string>
+    <string name="str_carrecord_marked_car" translatable="false">请填写车品牌/型号</string>
+    <string name="str_carrecord_marked_yeartype" translatable="false">请填写年款配置</string>
+    <string name="str_carrecord_marked_year" translatable="false">请填写车登记日期</string>
+    <string name="str_carrecord_marked_outdate" translatable="false">请填写车出厂日期</string>
+    <string name="str_carrecord_marked_mode" translatable="false">请填写车公里数</string>
+    <string name="str_carrecord_marked_environmentStandard" translatable="false">请填写车排放标准</string>
+    <string name="str_carrecord_marked_cartype" translatable="false">请选择车进出口类型</string>
+    <string name="str_carrecord_marked_vin" translatable="false">请填写车VIN号</string>
+    <string name="str_carrecord_marked_vin_error" translatable="false">请正确填写车VIN号</string>
+    <string name="str_carrecord_emissionStandards" translatable="false">环保标准</string>
+    <string name="str_carrecord_engineType" translatable="false">发动机型号:</string>
+    <string name="str_carrecord_yearType" translatable="false">年款配置</string>
+    <string name="str_carrecord_carType" translatable="false">车生产类型</string>
+    <string name="str_carrecord_carType_import" translatable="false">进口</string>
+    <string name="str_carrecord_carType_domestic" translatable="false">国产</string>
+    <string name="str_carrecord_fourTwoOne" translatable="false">四证两险一发票(全/待查/缺)</string>
+
+    <!-- 检车 -->
+    <string name="str_carcheck_item_hint_comment" translatable="false">点评</string>
+    <string name="str_car_check_input_serious" translatable="false">请认真填写车辆评估表</string>
+    <string name="str_carcheck_title_base" translatable="false">基本信息</string>
+    <string name="str_carcheck_title_detail" translatable="false">具体评估</string>
+    <string name="str_carcheck_title_comment" translatable="false">综合评价</string>
+    <string name="str_carcheck_next" translatable="false">下一步</string>
+    <string name="str_carcheck_commit" translatable="false">提交报告</string>
+    <string name="str_carcheck_item_yes" translatable="false">是</string>
+    <string name="str_carcheck_item_no" translatable="false">否</string>
+    <string name="str_carcheck_item_remark" translatable="false">备注</string>
+    <string name="str_carcheck_item_remarked" translatable="false">已备注</string>
+    <string name="str_car_comment_input_serious" translatable="false">请认真填写车辆评估</string>
+    <string name="str_car_value" translatable="false">大概价格</string>
+    <string name="wan" translatable="false">(单位)万</string>
+    <string name="str_car_value_p" translatable="false">该价格不向客户展示</string>
+    <string name="str_dialog_commit_cont" translatable="false">提交后将无法修改 \n您确认提交吗？</string>
+    <string name="str_dialog_btn_sure" translatable="false">确认</string>
+    <string name="str_dialog_btn_cancel" translatable="false">取消</string>
+    <string name="str_carcheck_panel" translatable="false">仪表盘</string>
+    <string name="str_carcheck_brand" translatable="false">厂牌</string>
+    <string name="str_carcheck_ccr" translatable="false">中控全貌</string>
+    <string name="str_carcheck_engineroom" translatable="false">发动机舱</string>
+    <string name="str_carcheck_trunk" translatable="false">后备箱</string>
+    <string name="str_carcheck_underpan" translatable="false">底盘(选拍)</string>
+    <string name="str_carcheck_front45" translatable="false">车前45度</string>
+    <string name="str_carcheck_back45" translatable="false">车后45度</string>
+    <string name="str_carcheck_no" translatable="false">不是</string>
+    <string name="str_carcheck_yes" translatable="false">是</string>
+    <string name="str_carcheck_default" translatable="false">请选择</string>
+    <string name="str_carcheck_comment_error" translatable="false">请填写车况综合评估</string>
+    <string name="str_carcheck_carvalue_error" translatable="false">请估值</string>
+    <string name="str_carcheck_doornot" translatable="false">是否检测该项</string>
+    
+    <string name="str_carcheck_vin_error" translatable="false">查无此车信息，请确认您输入Vin是否输入正确</string>
+    <string name="str_carcheck_net_error" translatable="false">网络连接有误</string>
+
+    <!-- 活动版块 -->
+    <string name="str_activities_title" translatable="false">活动</string>
+    <string name="str_qa" translatable="false">我的问答</string>
+    <string name="str_school" translatable="false">师傅课堂</string>
+    <string name="str_activities_newest" translatable="false">最新活动</string>
+    <string name="str_feedback" translatable="false">我要吐槽</string>
+    <string name="str_aboutus" translatable="false">关于我们</string>
+    <string name="str_mine_price" translatable="false">我要估价</string>
+    <string name="str_vin_query" translatable="false">车辆查询</string>
+    <string name="str_car_prereport" translatable="false">车辆预检</string>
+    <string name="str_vin_query_hint" translatable="false">请输入17位车辆VIN码</string>
+    <string name="str_car_pre_start" translatable="false">开始预检</string>
+    <string name="str_car_pre_carvin" translatable="false">VIN码:</string>
+    <string name="str_car_pre_start_time" translatable="false">检测时间:</string>
+    <string name="str_car_pre_continue_check" translatable="false">继续检测</string>
+    <!-- 检车报告 -->
+    <string name="str_carreport_title" translatable="false">车检报告</string>
+    <string name="str_title_aboutus" translatable="false">关于我们</string>
+    <string name="str_check_version" translatable="false">更新版本</string>
+    <string name="str_check_version_ing" translatable="false">检查版本中&#8230;</string>
+    <string name="str_logout_msg" translatable="false">确定要退出吗?</string>
+    <string name="str_logout" translatable="false">退出登陆</string>
+    <string name="address" translatable="false">地  址 :</string>
+    <string name="address_cont" translatable="false">北京市朝阳区温特莱中心15楼</string>
+    <string name="official_web" translatable="false">官  网 :</string>
+    <string name="official_web_cont" translatable="false">www.shifukanche.com</string>
+    <string name="version" translatable="false">版  本 :</string>
+    <string name="service" translatable="false">客  服 :</string>
+    <string name="service_phone" translatable="false">4008188858</string>
+    <string name="copyright" translatable="false">Copyright©2014 \n 普信恒业科技发展(北京)有限公司版权所有</string>
+    <string name="str_get_qrcode" translatable="false">获取二维码</string>
+    <string name="str_title_qrcode" translatable="false">我的二维码</string>
+    <string name="str_qrcode_tip" translatable="false">请客户使用微信扫一扫\n扫描二维码直接预约</string>
+    <!-- 选择照片 -->
+    <string name="str_photo_take" translatable="false">拍照</string>
+    <string name="str_photo_albumn" translatable="false">从相册选择</string>
+    <!-- 我 -->
+    <string name="str_mine_title" translatable="false">我</string>
+    <string name="str_mine_profession" translatable="false">专业</string>
+    <string name="str_mine_good" translatable="false">好评</string>
+    <string name="str_mine_myincome" translatable="false">我的收入</string>
+    <string name="str_mine_myincome_unit" translatable="false">元</string>
+    <string name="str_mine_myincome_unit1" translatable="false">名</string>
+    <string name="str_mine_myincome_unit2" translatable="false">单</string>
+    <string name="str_mine_myincome_unit3" translatable="false">万元</string>
+    <string name="str_mine_income" translatable="false">本月收入</string>
+    <string name="str_mine_income_sort" translatable="false">收入排行榜</string>
+    <string name="str_mine_works" translatable="false">接单量</string>
+    <string name="str_mine_works_sort" translatable="false">接单排行榜</string>
+    <string name="str_mine_job_title" translatable="false">我的任务</string>
+    <string name="str_mine_job_title1" translatable="false">寻找一个感人的案例</string>
+    <string name="str_mine_job_title2" translatable="false">检查工具磨损情况</string>
+    <string name="str_mine_topic_title" translatable="false">最新评论</string>
+    <string name="str_mine_logout" translatable="false">退出</string>
+    <string name="str_mine_basic_title" translatable="false">个人名片</string>
+    <string name="str_mine_save" translatable="false">保存</string>
+    <string name="str_mine_share" translatable="false">分享</string>
+    <string name="str_mine_photo_title" translatable="false">头像</string>
+    <string name="str_mine_base_name_title" translatable="false">姓名</string>
+    <string name="str_mine_fatherword_title" translatable="false">师傅宣言</string>
+    <string name="str_mine_bestcar_title" translatable="false">擅长车系</string>
+    <string name="str_mine_resume_title" translatable="false">个人简介</string>
+    <string name="str_mine_priceinteval_title" translatable="false">擅长价格</string>
+    <string name="str_mine_workphoto_title" translatable="false">工作照</string>
+    <string name="str_mine_service_assess" translatable="false">服务评价</string>
+    <string name="str_mine_state_title" translatable="false">状态</string>
+    <string name="str_mine_iswork_title" translatable="false">是否开始工作</string>
+    <string name="str_mine_save_success" translatable="false">保存成功</string>
+    <string name="str_mine_save_failure" translatable="false">保存失败</string>
+    <string name="str_mine_word_null" translatable="false">师傅宣言不能为空</string>
+    <string name="str_mine_resume_null" translatable="false">个人简介不能为空</string>
+    <string name="str_mine_car_null" translatable="false">汽车价格区间不能为空</string>
+    <string name="str_mine_car_not" translatable="false">最高值不能大于最低值</string>
+    <string name="str_mine_no_topic" translatable="false">暂无任何评论</string>
+    <string name="str_mine_level_unit" translatable="false">级</string>
+    <string name="str_mine_level_state1" translatable="false">工作中</string>
+    <string name="str_mine_level_state2" translatable="false">休息中</string>
+    <string name="str_mine_level_state3" translatable="false">我在</string>
+    <string name="str_mine_setting_title" translatable="false">设置</string>
+	<string name="str_mine_sort_title" translatable="false">第</string>
+    <!-- 反馈 -->
+    <string name="str_feedback_hint" translatable="false">尽情地吐槽吧！</string>
+    <string name="str_commit" translatable="false">提  交 </string>
+    <string name="str_feedback_cont_null" translatable="false">反馈内容不能为空</string>
+    <string name="str_feedback_commit_success" translatable="false">您地吐槽我们已经收到~</string>
+
+    <!-- 问答 -->
+    <string name="questtion_main_title" translatable="false">问答</string>
+    <string name="questtion_main_empty" translatable="false">暂无问题</string>
+    <string name="answer_send_title" translatable="false">发送</string>
+    <string name="viewpager_indicator" translatable="false">%1$d/%2$d</string>
+    <string name="questtion_answer_title" translatable="false">火星人</string>
+    <string name="answer_send_content" translatable="false">回复内容不能为空!</string>
+	<!-- 车辆信息展示 -->
+	<string name="show_carinfo_title" translatable="false">车辆信息</string>
+	<string name="show_carinfo_btn" translatable="false">查看</string>
+</resources>

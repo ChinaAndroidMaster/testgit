@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <com.creditease.checkcars.ui.widget.CleanableEditText
+        android:id="@+id/carcomment_et_comment"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/bg_input"
+        android:gravity="top|left"
+        android:hint="@string/str_car_comment_input_serious"
+        android:padding="7dp"
+        android:singleLine="false"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp" >
+
+        <Button
+            android:id="@+id/carcomment_btn_evaluate"
+            android:layout_width="wrap_content"
+            android:layout_height="40.0dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_car_query_able"
+            android:clickable="true"
+            android:text="@string/evaluate"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/carcomment_et_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/carcomment_btn_evaluate"
+            android:background="@drawable/bg_input"
+            android:gravity="center_vertical"
+            android:hint="@string/unit"
+            android:inputType="numberDecimal"
+            android:paddingLeft="5dp"
+            android:singleLine="false"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/carcomment_et_value"
+            android:gravity="center"
+            android:text="@string/unit2"
+            android:layout_centerVertical="true"
+            android:textColor="@color/color_text_black_gray" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="right"
+        android:hint="@string/str_car_value_p"
+        android:paddingRight="10dp"
+        android:textColor="@color/color_text_gray"
+        android:textSize="14sp" />
+
+    <RadioGroup
+        android:id="@+id/carcomment_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/carcomment_rb_level1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@drawable/rb_carcheck_level_1_selector"
+            android:checked="true"
+            android:gravity="center" />
+
+        <RadioButton
+            android:id="@+id/carcomment_rb_level2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@drawable/rb_carcheck_level_2_selector"
+            android:gravity="center" />
+
+        <RadioButton
+            android:id="@+id/carcomment_rb_level4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@drawable/rb_carcheck_level_4_selector"
+            android:gravity="center" />
+
+        <RadioButton
+            android:id="@+id/carcomment_rb_level3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@drawable/rb_carcheck_level_3_selector"
+            android:gravity="center" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/carcomment_btn_commit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/color_bg_btn_next_unable"
+        android:text="@string/str_carcheck_commit"
+        android:textColor="@color/white" />
+
+</LinearLayout>

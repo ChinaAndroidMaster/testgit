@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_mine_interval"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <include
+        android:id="@+id/headerLayout"
+        layout="@layout/include_header" />
+
+    <ScrollView
+        android:id="@+id/mine_basic_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headerLayout" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/mine_data_bg"
+            android:paddingBottom="20dp" >
+
+            <!-- 师傅头像、名字、擅长车系布局 -->
+
+            <RelativeLayout
+                android:id="@+id/mine_basic_photoLayout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp" >
+
+                <com.creditease.checkcars.ui.widget.RoundAngleImageView
+                    android:id="@+id/mine_basic_roundedImageview"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mine_image_default"
+                    app:roundHeight="10dp"
+                    app:roundWidth="10dp" />
+
+                <TextView
+                    android:id="@+id/mine_basic_trueName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@+id/mine_basic_roundedImageview"
+                    android:layout_toRightOf="@+id/mine_basic_roundedImageview"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:textColor="@color/color_mine_name"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/mine_basic_bestcar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mine_basic_trueName"
+                    android:layout_marginTop="10dp"
+                    android:layout_toEndOf="@+id/mine_basic_roundedImageview"
+                    android:layout_toRightOf="@+id/mine_basic_roundedImageview"
+                    android:gravity="start"
+                    android:singleLine="true"
+                    android:textColor="@color/color_mine_profession"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+            <!-- 分割线 -->
+
+            <TextView
+                android:id="@+id/minedivider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/mine_basic_photoLayout"
+                android:background="@drawable/mine_divider" />
+            <!-- 师傅宣言布局 -->
+
+            <RelativeLayout
+                android:id="@+id/mine_basic_fatherLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/minedivider"
+                android:minHeight="50dp" >
+
+                <TextView
+                    android:id="@+id/mine_basic_fatherwordtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:minHeight="50dp"
+                    android:singleLine="true"
+                    android:text="@string/str_mine_fatherword_title"
+                    android:textColor="@color/color_mine_name"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/mine_basic_data_save"
+                    android:layout_width="10dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:contentDescription="@null"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mine_arrow_right" />
+
+                <TextView
+                    android:id="@+id/mine_basic_fatherword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/mine_basic_fatherwordtitle"
+                    android:layout_toLeftOf="@id/mine_basic_data_save"
+                    android:layout_toRightOf="@id/mine_basic_fatherwordtitle"
+                    android:layout_toStartOf="@id/mine_basic_data_save"
+                    android:paddingBottom="10dp"
+                    android:paddingEnd="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp"
+                    android:paddingStart="20dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/color_mine_profession"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+            <!-- 评估区间布局 -->
+
+            <RelativeLayout
+                android:id="@+id/mine_basic_pirceintervalLayout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/mine_basic_fatherLayout" >
+
+                <TextView
+                    android:id="@+id/mine_basic_priceintervaltitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/str_mine_priceinteval_title"
+                    android:textColor="@color/color_mine_name"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/mine_basic_startprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/mine_basic_priceintervaltitle"
+                    android:layout_toRightOf="@+id/mine_basic_priceintervaltitle"
+                    android:gravity="center"
+                    android:textColor="@color/color_mine_profession"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/priceunit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="49dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toEndOf="@+id/mine_basic_startprice"
+                    android:layout_toRightOf="@+id/mine_basic_startprice"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/str_mine_myincome_unit3"
+                    android:textColor="@color/color_mine_profession"
+                    android:textSize="16sp" />
+                <!-- 分割线 -->
+
+                <TextView
+                    android:id="@+id/priceintervaldivider"
+                    android:layout_width="25dp"
+                    android:layout_height="1px"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_toEndOf="@+id/priceunit1"
+                    android:layout_toRightOf="@+id/priceunit1"
+                    android:background="@color/color_mine_profession" />
+
+                <TextView
+                    android:id="@+id/mine_basic_endprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_toEndOf="@+id/priceintervaldivider"
+                    android:layout_toRightOf="@+id/priceintervaldivider"
+                    android:gravity="center"
+                    android:textColor="@color/color_mine_profession"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/priceunit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toEndOf="@+id/mine_basic_endprice"
+                    android:layout_toRightOf="@+id/mine_basic_endprice"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/str_mine_myincome_unit3"
+                    android:textColor="@color/color_mine_profession"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <com.creditease.checkcars.ui.widget.NoScrollGridView
+                android:id="@+id/mine_basic_gridView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mine_basic_pirceintervalLayout"
+                android:layout_marginTop="10dp"
+                android:horizontalSpacing="10dp"
+                android:numColumns="3"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:verticalSpacing="10dp"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

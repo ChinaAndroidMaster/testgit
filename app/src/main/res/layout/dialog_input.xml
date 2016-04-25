@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog_layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="7dp"
+    android:background="@drawable/bg_dialog"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/dialog_input_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:text="@string/str_carcheck_item_remark"
+            android:textColor="@color/color_text_black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/dialog_input_btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="7dp"
+            android:contentDescription="@null"
+            android:src="@drawable/btn_close_selector" />
+    </RelativeLayout>
+
+    <com.creditease.checkcars.ui.widget.CleanableEditText
+        android:id="@+id/dialog_input_et"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="7dp"
+        android:background="@drawable/bg_input_top"
+        android:drawableRight="@drawable/btn_clean_edittext"
+        android:gravity="left|top"
+        android:singleLine="false"
+        android:textAppearance="?android:attr/textAppearanceMedium" >
+
+        <requestFocus />
+    </com.creditease.checkcars.ui.widget.CleanableEditText>
+
+    <Button
+        android:id="@+id/dialog_input_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_btn_dialog_ok"
+        android:gravity="center"
+        android:text="@string/str_dialog_btn_sure"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+</LinearLayout>

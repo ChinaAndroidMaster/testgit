@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="top" >
+	<TextView
+        android:id="@+id/answer_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:textColor="@color/color_mine_name"
+	    android:lineSpacingExtra="1dp"
+	    android:paddingTop="2dp"
+	    android:paddingBottom="2dp"
+	    android:textSize="14sp"
+        />
+    <TextView
+        android:id="@+id/answer_item_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:textColor="@color/color_mine_profession"
+	    android:lineSpacingExtra="1dp"
+	    android:paddingTop="2dp"
+	    android:paddingBottom="2dp"
+	    android:textSize="12sp"
+        />
+</LinearLayout>

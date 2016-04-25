@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/item_caroder_ordernum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/color_text_black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/item_caroder_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:singleLine="true"
+                android:text="@string/order_finished"
+                android:textColor="@color/color_text_selected"
+                android:textSize="17sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/color_divier" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/item_caroder_imgv_head"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/defalut_head" />
+
+            <LinearLayout
+                android:id="@+id/item_caroder_btn_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/item_caroder_paynumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="@string/app_name"
+                    android:textColor="@color/color_text_selected"
+                    android:textSize="17sp"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/item_caroder_btn_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/bg_btn_order_selector"
+                    android:focusable="false"
+                    android:padding="15dp"
+                    android:text="@string/str_carorders_btn_evaluate"
+                    android:textColor="@color/color_text_item_order"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toLeftOf="@id/item_caroder_btn_layout"
+                android:layout_toRightOf="@id/item_caroder_imgv_head"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="3dp" >
+
+                <TextView
+                    android:id="@+id/item_caroder_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="@string/app_name"
+                    android:textColor="@color/color_text_black"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/item_caroder_phonenumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="@string/app_name"
+                    android:textColor="@color/color_text_item_order"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/dashline" />
+
+        <TextView
+            android:id="@+id/item_caroder_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_item_order_type"
+            android:drawablePadding="11dp"
+            android:text="@string/app_name"
+            android:textColor="@color/color_text_black_gray_88"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/item_caroder_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_item_order_time"
+            android:drawablePadding="11dp"
+            android:text="@string/app_name"
+            android:textColor="@color/color_text_black_gray_88"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/item_caroder_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_item_order_address"
+            android:drawablePadding="13dp"
+            android:paddingLeft="1.5dp"
+            android:text="@string/app_name"
+            android:textColor="@color/color_text_black_gray_88"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/item_caroder_carbrand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_item_order_carser"
+            android:drawablePadding="8dp"
+            android:paddingLeft="0dp"
+            android:text="@string/app_name"
+            android:textColor="@color/color_text_black_gray_88"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/item_caroder_paymoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_item_order_fee"
+            android:drawablePadding="10dp"
+            android:paddingLeft="0dp"
+            android:text="@string/fee_service"
+            android:textColor="@color/color_text_selected"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/item_caroder_descrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="1.5dp"
+            android:text="@string/app_name"
+            android:textColor="@color/color_text_black_gray_88"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:id="@+id/item_caroder_reports_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="11dp"
+            android:orientation="vertical"
+            android:visibility="gone" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/item_caroder_btn_finish"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_btn_unable"
+            android:focusable="false"
+            android:paddingBottom="2dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingTop="2dp"
+            android:text="@string/str_carorders_btn_finish"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/bg_color"
+        android:contentDescription="@null" />
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    android:padding="30dp" >
+
+    <TextView
+        android:id="@+id/act_login_btn_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="5dp"
+        android:paddingTop="20dp"
+        android:text="@string/str_toregist"
+        android:textColor="#1f93e5"
+        android:textSize="16.0sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/act_login_layout_logo"
+        android:layout_width="452dp"
+        android:layout_height="214dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="68dp"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon" />
+
+    <com.creditease.checkcars.ui.widget.CleanableEditText
+        android:id="@+id/act_login_et_username"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/bg_input"
+        android:drawableLeft="@drawable/ic_phone_small"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/btn_clean_edittext"
+        android:hint="@string/str_phone"
+        android:inputType="phone"
+        android:maxLength="13"
+        android:paddingLeft="10dp"
+        android:textSize="30sp" />
+
+    <com.creditease.checkcars.ui.widget.CleanableEditText
+        android:id="@+id/act_login_et_pwd"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_input"
+        android:drawableLeft="@drawable/ic_password"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/btn_clean_edittext"
+        android:hint="@string/str_pwd"
+        android:imeActionLabel="@string/str_login"
+        android:inputType="textPassword"
+        android:maxLength="30"
+        android:paddingLeft="10dp"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/act_login_btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="30.0dp"
+        android:background="@color/color_bg_btn_next_able"
+        android:text="@string/str_login"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/act_login_tv_forgetpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="7dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="7dp"
+        android:text="@string/forget_pwd"
+        android:textColor="@color/color_text_item_order"
+        android:textSize="30sp" />
+
+</LinearLayout>

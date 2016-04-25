@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 密码 -->
+    <string name="phonenumb_regist" translatable="false">登陆手机号</string>
+    <string name="getVerify" translatable="false">获取验证码</string>
+    <string name="regetVerify" translatable="false">重新获取</string>
+    <string name="verify_code" translatable="false">验证码</string>
+    <string name="step_next" translatable="false">下一步</string>
+    <string name="forget_pwd" translatable="false">忘记密码</string>
+    <string name="pwd_reset" translatable="false">重置密码</string>
+
+    <!-- 检测图片预览 -->
+    <string name="delete_all" translatable="false">删除全部</string>
+    <string name="delete" translatable="false">删除</string>
+    <string name="delete_content" translatable="false">确认删除该项所有图片吗？</string>
+    <!-- 检测基本项日期dialog -->
+    <string name="date_selector" translatable="false">选择日期</string>
+    <string name="sure" translatable="false">确定</string>
+    <string name="uncheck" translatable="false">待查</string>
+
+    <!-- 订单 -->
+    <string name="fee_service" translatable="false">服务费</string>
+    <string name="dialog_payinfo_title" translatable="false">服务费详情</string>
+    <string name="fee_noti" translatable="false">请收取现金后再点击确认</string>
+    <string name="report_passed">审核通过</string>
+    <string name="report_unpass">审核未通过</string>
+    <string name="report_undo">未审核</string>
+    <string name="report_review">查看报告</string>
+    <string name="report_modify">修改报告</string>
+    <string name="order_finished">订单完成</string>
+
+    <!-- 支付详情 -->
+    <string name="service_fee" translatable="false">按辆检测服务：</string>
+    <string name="service_type">服务类型&#160;&#160;&#160;&#160;&#160;&#160;：</string>
+    <string name="service_fee_total">服务费用&#160;&#160;&#160;&#160;&#160;&#160;： </string>
+    <string name="privilege_activities">活动优惠&#160;&#160;&#160;&#160;&#160;&#160;：</string>
+    <string name="privilege_olduser">老用户优惠&#160; ：</string>
+    <string name="privilege_other">特殊费用&#160;&#160;&#160;&#160;&#160;&#160;：</string>
+    <string name="privilege_channel">渠道优惠&#160;&#160;&#160;&#160;&#160;&#160;：</string>
+    <string name="total">总计：</string>
+
+    <!-- 个人主页 -->
+    <string name="mine_market">我的销售</string>
+    <string name="market_tool">检车销售</string>
+     <string name="market_allcover">质保销售</string>
+    <string name="income" translatable="false">收入</string>
+
+    <!-- 車信息 -->
+    <string name="carrecord_car_config">年款排量配置</string>
+    <string name="carrecord_car_userguide">用户手册</string>
+    <string name="carrecord_car_factorycertificates">出厂凭证</string>
+    <string name="carrecord_car_registerdata">注册资料</string>
+    <string name="carrecord_fourTwoOne" translatable="false">四证两险一发票</string>
+
+    <!-- 车必拍照 -->
+    <string name="carimg_front45">车前45度</string>
+    <string name="carimg_back45">车后45度</string>
+    <string name="carimg_brand">厂牌</string>
+    <string name="carimg_engine">发动机舱</string>
+    <string name="carimg_ccr">中控全貌</string>
+    <string name="carimg_panel">仪表盘</string>
+    <string name="carimg_trunk">后备箱</string>
+    <string name="carimg_underpan">底盘</string>
+    <string name="evaluate">去估价</string>
+    <string name="unit" translatable="false">车估价</string>
+
+    <!-- 支付 -->
+    <string name="pay_sure">确认支付</string>
+    <string name="pay">转账支付</string>
+    <string name="payed">已支付</string>
+    <string name="order_number">订单编号：</string>
+    <string name="subject_name">转账项目：</string>
+    <string name="subject_describ">支付描述：</string>
+    <string name="subject_price">支付金额：</string>
+    <string name="appraiser_phonenumber">师傅手机：</string>
+    <string name="alipay_sellerid">收&#160;&#160;款&#160;&#160;方：</string>
+    <string name="pay_success">支付成功</string>
+    <string name="pay_done">已支付</string>
+    <string name="valuations_reasonable">请输入合理的车估价</string>
+    <string name="valuations_reasonable2">请输入合理的车估价,这辆车估价过千万了吗 ？</string>
+    <string name="unit2" translatable="false">单位（万）</string>
+
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/listitem_carcheck_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="@string/app_name"
+        android:textColor="@color/color_text_black_gray"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/listitem_carcheck_remark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_btn_remark_undo"
+            android:gravity="center"
+            android:padding="10dp"
+            android:paddingBottom="5dp"
+            android:text="@string/str_carcheck_item_remark"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <RelativeLayout
+            android:id="@+id/listitem_carcheck_tphoto"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/bg_btn_checkitem_photo"
+            android:layout_toLeftOf="@id/listitem_carcheck_remark" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/icon_checkitem_photo" />
+
+            <ImageView
+                android:id="@+id/listitem_carcheck_unfinish_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:contentDescription="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/un_passed_icon"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/listitem_carcheck_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:layout_toLeftOf="@id/listitem_carcheck_tphoto"
+            android:background="@drawable/bg_answer"
+            android:focusable="true"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            android:paddingTop="3dp"
+            android:hint="@string/str_carcheck_default"
+            android:textColor="@color/color_text_black_gray"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+     <com.creditease.checkcars.ui.widget.HorizontalListView
+        android:id="@+id/listitem_carcheck_hlv"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/transparent"
+        android:focusable="false"
+        android:padding="5dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/listitem_carcheck_comment_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_btn_orderitem"
+        android:focusable="false"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/str_carcheck_item_hint_comment"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:visibility="visible" />
+
+</LinearLayout>

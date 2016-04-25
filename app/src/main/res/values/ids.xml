@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="llBody" type="id">2</item>
+    <item name="rlThumb" type="id">1</item>
+    <item name="llTitle" type="id">1</item>
+
+    <item name="mDivider" type="id">1</item>
+    <item name="txtDivider" type="id">2</item>
+
+</resources>

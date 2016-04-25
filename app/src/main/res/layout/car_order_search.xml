@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/car_order_search_headr_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/color_bg_title"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <com.creditease.checkcars.ui.widget.CleanableEditText
+            android:id="@+id/car_order_search_edit"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="4.5"
+            android:background="@drawable/bg_input_top"
+            android:drawableEnd="@drawable/order_search_cancel"
+            android:drawableLeft="@drawable/order_search_grey"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/order_search_cancel"
+            android:drawableStart="@drawable/order_search_grey"
+            android:hint="@string/car_search_order_hint"
+            android:imeOptions="actionSearch"
+            android:paddingEnd="15.5dp"
+            android:paddingLeft="10.5dp"
+            android:paddingRight="15.5dp"
+            android:paddingStart="10.5dp"
+            android:singleLine="true"
+            android:textColor="@color/color_text_black_gray"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/car_order_search_cancel"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/car_search_order_cancel"
+            android:textColor="@color/edit_text_selector"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <com.creditease.checkcars.ui.widget.XListView
+        android:id="@+id/car_order_search_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:divider="@color/bg_color"
+        android:dividerHeight="0dp" />
+
+    <TextView
+        android:id="@+id/car_order_search_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/car_search_order_empty"
+        android:textColor="@color/color_text_gray"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+</LinearLayout>
